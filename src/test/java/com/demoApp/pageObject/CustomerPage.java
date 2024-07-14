@@ -1,0 +1,63 @@
+package com.demoApp.pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.demoApp.utilities.HighlightElementClass;
+
+public class CustomerPage {
+
+	WebDriver driver;
+	HighlightElementClass highlightElementClass = new HighlightElementClass();
+
+	@FindBy(xpath = "//div[contains(@role,'alert')]")
+	WebElement accountSuccesMessage;
+
+	@FindBy(xpath = "//span[contains(@class,'logged-in')]")
+	WebElement welcomeMessage;
+	
+	@FindBy(xpath = "//div[contains(@class,'box-content')]/p")
+	WebElement contactInformation;
+		
+	//constructor
+	public CustomerPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	//check whether element is displayed
+	public boolean isMessageElementPresent() {
+		return accountSuccesMessage.isDisplayed();
+	}
+	
+	//return successful account creation message
+	public String getCreateAccountSuccessMessage() {
+		highlightElementClass.highlightElement(driver, accountSuccesMessage);
+		String message = accountSuccesMessage.getText();
+		return message;
+	}
+	
+	//check whether welcome element is displayed
+	public boolean isWelcomeElementPresent() {
+		return welcomeMessage.isDisplayed();
+	}
+	
+	//get welcome message from page
+	public String getWelcomeMessage() {
+		highlightElementClass.highlightElement(driver, welcomeMessage);
+		return welcomeMessage.getText();
+	}
+	
+	//check whether welcome element is displayed
+	public boolean iscontactElementPresent() {
+		return contactInformation.isDisplayed();
+	}
+	
+	//get contact info from page
+	public String getContactInfo() {
+		highlightElementClass.highlightElement(driver, contactInformation);
+		return contactInformation.getText();
+	}
+}
