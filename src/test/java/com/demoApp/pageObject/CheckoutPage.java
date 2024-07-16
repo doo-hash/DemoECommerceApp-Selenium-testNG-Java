@@ -40,6 +40,14 @@ public class CheckoutPage {
 	@FindBy(xpath = "//button[contains(@class,'continue')]")
 	WebElement nextButton;
 	
+	@FindBy(className = "checkout-billing-address")
+	WebElement billingAddress;
+	
+	@FindBy(name ="billing-address-same-as-shipping")
+	WebElement billingAddressCheckBox;
+	
+	@FindBy(xpath ="//button[contains(@class,'checkout')]")
+	WebElement placeOrderButton;
 	
 	//Constructor
 	public CheckoutPage(WebDriver driver, WebDriverWait wait) {
@@ -81,5 +89,19 @@ public class CheckoutPage {
 		highlightElement.highlightElement(driver, nextButton);
 		nextButton.click();
 	}
+	
+	
+	//check billing address is selected
+	public boolean isBillingAddressSelected() {
+		highlightElement.highlightElement(driver, billingAddress);
+		return billingAddressCheckBox.isSelected();
+	}
+	
+	//click to place orders
+	public void clickPlaceOrderButton() {
+		highlightElement.highlightElement(driver, placeOrderButton);
+		placeOrderButton.click();
+	}
+	
 }
 

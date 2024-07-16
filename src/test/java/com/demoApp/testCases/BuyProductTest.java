@@ -113,6 +113,16 @@ public class BuyProductTest extends BaseClass {
 		checkoutPage.clickNextButton();
 		logger.info("next button clicked!");
 		
+		assertTrue(checkoutPage.isBillingAddressSelected());
+		logger.info("billing address selected!");
+		
+		checkoutPage.clickPlaceOrderButton();
+		logger.info("place order button clicked!");
+		
+		wait.until(d -> driver.getCurrentUrl().equals("https://magento.softwaretestingboard.com/checkout/onepage/success/"));
+		logger.info(driver.getCurrentUrl());
+		logger.info("order confirmation page opened!");
+		
 		
 //		assertTrue(productPage.getProductName().contains(searchEntry));
 //		logger.info("Product page opened!");
