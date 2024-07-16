@@ -5,13 +5,10 @@ import static org.testng.Assert.assertTrue;
 import java.io.IOException;
 import java.text.DateFormatSymbols;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -24,7 +21,6 @@ import com.demoApp.pageObject.LogoutSuccessPage;
 import com.demoApp.pageObject.OrderDetailsReceiptPage;
 import com.demoApp.pageObject.OrderSuccessPage;
 import com.demoApp.pageObject.PrintOrderPage;
-import com.demoApp.pageObject.ProductPage;
 import com.demoApp.pageObject.SearchProductPage;
 
 public class BuyProductTest extends BaseClass {
@@ -32,8 +28,7 @@ public class BuyProductTest extends BaseClass {
 	
 	@Test
 	public void verifyBuyProductTest() throws IOException, InterruptedException, ParseException {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
-		JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 		
 		logger.info("*************************VerifyBuyProductTest Starts**************************");
 
@@ -46,6 +41,7 @@ public class BuyProductTest extends BaseClass {
 		CheckoutPage checkoutPage = new CheckoutPage(driver, wait);
 		OrderSuccessPage orderSuccessPage = new OrderSuccessPage(driver, wait);
 		OrderDetailsReceiptPage orderDetailsReceiptPage = new OrderDetailsReceiptPage(driver, wait);
+		PrintOrderPage printOrderPage = new PrintOrderPage(driver);
 		
 		
 		
@@ -69,6 +65,7 @@ public class BuyProductTest extends BaseClass {
 		loginPage.clickLoginButton();
 		logger.info("login submit button clicked!");
 
+		wait.until(d -> driver.getCurrentUrl().equals("https://magento.softwaretestingboard.com/"));
 		wait.until(d -> homePage.getWelcomeMessage().contains("John"));
 		logger.info(driver.getCurrentUrl());
 		
@@ -117,6 +114,7 @@ public class BuyProductTest extends BaseClass {
 		wait.until(d -> driver.getCurrentUrl().equals("https://magento.softwaretestingboard.com/checkout/#shipping"));
 		logger.info(driver.getCurrentUrl());
 		logger.info("checkout page opened!");
+		Thread.sleep(1000);
 
 		checkoutPage.waitUntilShippingAddressVisible();
 		checkoutPage.isShippingAddressDisplayed();
@@ -127,7 +125,11 @@ public class BuyProductTest extends BaseClass {
 		
 		checkoutPage.clickNextButton();
 		logger.info("next button clicked!");
+
+		wait.until(d -> driver.getCurrentUrl().equals("https://magento.softwaretestingboard.com/checkout/#payment"));
+		logger.info(driver.getCurrentUrl());
 		
+		Thread.sleep(2000);
 		assertTrue(checkoutPage.isBillingAddressSelected());
 		logger.info("billing address selected!");
 		
@@ -181,12 +183,29 @@ public class BuyProductTest extends BaseClass {
 		wait.until(d -> driver.getCurrentUrl().contains("https://magento.softwaretestingboard.com/sales/order/print/order_id/"));
 		logger.info(driver.getCurrentUrl());
 		logger.info("switched to print order page!");
+//		Thread.sleep(1000);
+		
+		System.out.println(driver.getWindowHandles().toArray().length);
+//		Object[] newWindowHandles = driver.getWindowHandles().toArray();
+//		driver.switchTo().window(newWindowHandles[2].toString());
+//		logger.info("switched to print page!");
+
+//		printOrderPage.clickCancelButton();
+//		logger.info("cancelled the order print!");
+
+//		Object[] curentWindowHandles = driver.getWindowHandles().toArray();
+//		driver.switchTo().window(curentWindowHandles[1].toString());
+//		logger.info("switched to print order page!");
+		
+//		printOrderPage.scrollToBottom();
+//		logger.info("scrolled to bottom of print order page!");
+
 
 		driver.close();
 		logger.info("closed print order page!");
 		
-		String windowhandle = driver.getWindowHandle().toString();
-		driver.switchTo().window(windowhandle);
+		Object[] curentWindowHandles = driver.getWindowHandles().toArray();
+		driver.switchTo().window(curentWindowHandles[0].toString());
 		
 		
 		//logout

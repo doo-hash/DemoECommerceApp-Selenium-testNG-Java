@@ -76,11 +76,13 @@ public class CheckoutPage {
 
 	//click to check orders
 	public void clickToSeeOrders() {
-		executor.executeScript("window.scrollBy(0,50);");
+		executor.executeScript("window.scrollBy(0,100);");
+		wait.until(ExpectedConditions.elementToBeClickable(orderListButton));
 		highlightElement.highlightElement(driver, orderSummary);
 		highlightElement.highlightElement(driver, orderListButton);
 		orderListButton.click();
 		executor.executeScript("window.scrollBy(0,50);");
+		wait.until(ExpectedConditions.elementToBeClickable(viewDetailsButton));
 		viewDetailsButton.click();
 		highlightElement.highlightElement(driver, productDetails);
 	}
