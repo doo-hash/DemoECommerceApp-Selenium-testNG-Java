@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.demoApp.utilities.HighlightElementClass;
@@ -68,12 +69,14 @@ public class CheckoutPage {
 	
 	//check shipping address is displayed
 	public boolean isShippingAddressDisplayed() {
+		wait.until(d -> shippingAddress.isDisplayed());		
 		highlightElement.highlightElement(driver, shippingAddress);
 		return shippingAddress.isDisplayed();
 	}
 
 	//click to check orders
 	public void clickToSeeOrders() {
+		executor.executeScript("window.scrollBy(0,50);");
 		highlightElement.highlightElement(driver, orderSummary);
 		highlightElement.highlightElement(driver, orderListButton);
 		orderListButton.click();
@@ -93,12 +96,15 @@ public class CheckoutPage {
 	
 	//check billing address is selected
 	public boolean isBillingAddressSelected() {
+		wait.until(d -> billingAddress.isDisplayed());		
 		highlightElement.highlightElement(driver, billingAddress);
 		return billingAddressCheckBox.isSelected();
 	}
 	
 	//click to place orders
 	public void clickPlaceOrderButton() {
+		executor.executeScript("window.scrollBy(0,100);");
+		wait.until(ExpectedConditions.elementToBeClickable(placeOrderButton));
 		highlightElement.highlightElement(driver, placeOrderButton);
 		placeOrderButton.click();
 	}
