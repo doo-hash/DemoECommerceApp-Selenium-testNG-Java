@@ -20,7 +20,17 @@ public class CustomerPage {
 	
 	@FindBy(xpath = "//div[contains(@class,'box-content')]/p")
 	WebElement contactInformation;
-		
+	
+	@FindBy(xpath = "//span/button")
+	WebElement accountDropdownButton;
+	
+	@FindBy(xpath = "//div[contains(@class,'customer-menu')]/ul[contains(@class,'header')]")
+	WebElement accountDropdown;
+	
+	@FindBy(linkText = "Sign Out")
+	WebElement logout;
+	
+	
 	//constructor
 	public CustomerPage(WebDriver driver) {
 		this.driver = driver;
@@ -50,7 +60,7 @@ public class CustomerPage {
 		return welcomeMessage.getText();
 	}
 	
-	//check whether welcome element is displayed
+	//check whether contact element is displayed
 	public boolean iscontactElementPresent() {
 		return contactInformation.isDisplayed();
 	}
@@ -59,5 +69,21 @@ public class CustomerPage {
 	public String getContactInfo() {
 		highlightElementClass.highlightElement(driver, contactInformation);
 		return contactInformation.getText();
+	}
+	
+	//click account dropdown button
+	public void clickAccountDropdown() {
+		accountDropdownButton.click();
+	}
+	
+	//check whether account dropdown is displayed
+	public boolean isDropdownVisible() {
+		return accountDropdown.isDisplayed();
+	}
+	
+	//logout
+	public void clickLogoutLink() {
+		highlightElementClass.highlightElement(driver, logout);
+		logout.click();
 	}
 }

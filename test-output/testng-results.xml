@@ -2,57 +2,36 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-14T00:59:14 IST" name="Suite" finished-at="2024-07-14T00:59:45 IST" duration-ms="31507">
+  <suite started-at="2024-07-15T23:23:29 IST" name="Default suite" finished-at="2024-07-15T23:24:06 IST" duration-ms="37721">
     <groups>
     </groups>
-    <test started-at="2024-07-14T00:59:14 IST" name="Test" finished-at="2024-07-14T00:59:45 IST" duration-ms="31507">
-      <class name="com.demoApp.testCases.CreateAccountPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.CreateAccountPageTest@6aaceffd]" started-at="2024-07-14T00:59:14 IST" name="setup" finished-at="2024-07-14T00:59:28 IST" duration-ms="14510" status="PASS">
+    <test started-at="2024-07-15T23:23:29 IST" name="Default test" finished-at="2024-07-15T23:24:06 IST" duration-ms="37721">
+      <class name="com.demoApp.testCases.BuyProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.BuyProductTest@548e6d58]" started-at="2024-07-15T23:23:29 IST" name="setup" finished-at="2024-07-15T23:23:47 IST" duration-ms="18038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewAccoutTest()[pri:0, instance:com.demoApp.testCases.CreateAccountPageTest@6aaceffd]" started-at="2024-07-14T00:59:28 IST" name="createNewAccoutTest" finished-at="2024-07-14T00:59:45 IST" duration-ms="16521" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="verifyBuyProductTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@548e6d58]" started-at="2024-07-15T23:23:47 IST" name="verifyBuyProductTest" finished-at="2024-07-15T23:24:06 IST" duration-ms="19580" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'box-content')]/p"}
-  (Session info: chrome=126.0.6478.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[Expected condition failed: waiting for com.demoApp.pageObject.SearchProductPage$$Lambda/0x00000284343166d0@5ac6c4f2 (tried for 8 second(s) with 500 milliseconds interval)
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1f8bd9bbfa912112f7df43e312339bec, findElement {using=xpath, value=//div[contains(@class,'box-content')]/p}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61834}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61834/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f8bd9bbfa912112f7df43e312339bec]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58810/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4d8d536c76e8db2e7e000ab352d8edd]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'box-content')]/p"}
-  (Session info: chrome=126.0.6478.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.demoApp.pageObject.SearchProductPage$$Lambda/0x00000284343166d0@5ac6c4f2 (tried for 8 second(s) with 500 milliseconds interval)
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1f8bd9bbfa912112f7df43e312339bec, findElement {using=xpath, value=//div[contains(@class,'box-content')]/p}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61834}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61834/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f8bd9bbfa912112f7df43e312339bec
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy28.isDisplayed(Unknown Source)
-at com.demoApp.pageObject.CustomerPage.iscontactElementPresent(CustomerPage.java:55)
-at com.demoApp.testCases.CreateAccountPageTest.createNewAccoutTest(CreateAccountPageTest.java:61)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58810/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4d8d536c76e8db2e7e000ab352d8edd
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.demoApp.pageObject.SearchProductPage.getSearchedProduct(SearchProductPage.java:71)
+at com.demoApp.testCases.BuyProductTest.verifyBuyProductTest(BuyProductTest.java:76)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -81,15 +60,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewAccoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.CreateAccountPageTest@6aaceffd]" started-at="2024-07-14T00:59:45 IST" name="tearDown" finished-at="2024-07-14T00:59:45 IST" duration-ms="393" status="PASS">
+        </test-method> <!-- verifyBuyProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.BuyProductTest@548e6d58]" started-at="2024-07-15T23:24:06 IST" name="tearDown" finished-at="2024-07-15T23:24:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.demoApp.testCases.CreateAccountPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.demoApp.testCases.BuyProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

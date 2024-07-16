@@ -25,12 +25,20 @@ public class CreateAccountPage {
 	@FindBy(className = "submit")
 	WebElement createAccountButton;
 	
+	@FindBy(xpath = "//div[contains(@role,'alert')]")
+	WebElement accountFailMessage;
+	
 	//constructor
 	public CreateAccountPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
+	//check url
+	public boolean isUrl() {
+		return driver.getCurrentUrl().equals("https://magento.softwaretestingboard.com/customer/account/create/");
+	}
+	
 	//set firstname input value
 	public void setFirstNameInput(String firstName) {
 		highlightElementClass.highlightElement(driver, firstNameInput);
@@ -92,5 +100,16 @@ public class CreateAccountPage {
 		createAccountButton.click();
 	}
 	
+	//check whether element is displayed
+	public boolean isMessageElementPresent() {
+		return accountFailMessage.isDisplayed();
+	}
+	
+	//return failed account creation message
+	public String getCreateAccountFailMessage() {
+		highlightElementClass.highlightElement(driver, accountFailMessage);
+		String message = accountFailMessage.getText();
+		return message;
+	}
 
 }

@@ -1,9 +1,14 @@
 package com.demoApp.testCases;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -54,6 +59,21 @@ public class BaseClass {
 	
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+//		driver.quit();
+	}
+
+	//method to capture screenshot
+	public void captureScreenshot(WebDriver driver, String testName) throws IOException {
+		//convert webdriver object to takesScreenshot interface
+		TakesScreenshot screenshot = ((TakesScreenshot)driver);
+		
+		//call getScreenshotAs method to create image file
+		File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
+		
+		File destFile = new File(System.getProperty("user.dir") + "//Screenshots//" + testName + ".png");
+		
+		//copy image file to destination
+		FileUtils.copyFile(srcFile, destFile);
+		
 	}
 }
