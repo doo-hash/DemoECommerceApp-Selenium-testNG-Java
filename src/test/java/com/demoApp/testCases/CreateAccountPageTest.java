@@ -18,7 +18,6 @@ public class CreateAccountPageTest extends BaseClass {
 	
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 	
-	@Ignore
 	@Test
 	public void createNewAccountTest() {
 

@@ -39,4 +39,33 @@ public class ReadConfig {
 		else
 			throw new RuntimeException("browserName not specified in config file;");
 	}
+	
+	//get User Email from properties
+	public String getUserEmail() {
+		String userEmail = properties.getProperty("userEmail");
+		if(userEmail != null)
+			return userEmail;
+		else
+			throw new RuntimeException("userEmail not specified in config file;");
+	}
+	
+	//get Password from properties
+	public String getPassword() {
+		String password = properties.getProperty("password");
+		if(password != null)
+			return password;
+		else
+			throw new RuntimeException("password not specified in config file;");
+	}
+	
+	
+	//get User Name from properties
+	public String getUserName() {
+		String userName = properties.getProperty("userName");
+		if(userName != null)
+			return userName;
+		else
+			throw new RuntimeException("userName not specified in config file;");
+	}
+	
 }

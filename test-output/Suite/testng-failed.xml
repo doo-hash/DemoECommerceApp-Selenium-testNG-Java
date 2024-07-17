@@ -4,15 +4,16 @@
   <listeners>
     <listener class-name="com.demoApp.utilities.ExtentListenerClass"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="LoginTest(failed)">
     <classes>
       <class name="com.demoApp.testCases.LoginPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyLoginTest"/>
+          <include name="logoutSuccessTest"/>
+          <include name="loginSuccessTest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.demoApp.testCases.LoginPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

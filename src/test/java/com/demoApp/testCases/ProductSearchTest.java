@@ -15,6 +15,7 @@ import com.demoApp.pageObject.LoginPage;
 import com.demoApp.pageObject.LogoutSuccessPage;
 import com.demoApp.pageObject.ProductPage;
 import com.demoApp.pageObject.SearchProductPage;
+import com.demoApp.utilities.ReadConfig;
 
 public class ProductSearchTest extends BaseClass {
 	
@@ -38,11 +39,14 @@ public class ProductSearchTest extends BaseClass {
 	
 	
 	@Test(priority = 2)
-	public void enterValidLoginCredentialsTest() throws IOException {
+	public void loginSuccessTest() throws Exception {
+		ReadConfig readConfig = new ReadConfig();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+
+		HomePage homePage = new HomePage(driver);
 		LoginPage loginPage = new LoginPage(driver);
 		
-		logger.info("*****EnterValidLoginCredentialsTest Starts*****");
+		logger.info("*******LoginSuccessTest Starts********");
 
 		//navigated to login page		
 		wait.until(d -> loginPage.isUrl());
@@ -50,31 +54,39 @@ public class ProductSearchTest extends BaseClass {
 		logger.info("login page opened!");
 		
 		//type Input values
-		loginPage.setEmailInput("johnDrew@test.com");
+		loginPage.setEmailInput(readConfig.getUserEmail());
 		logger.info("Entered email address");
-		loginPage.setPasswordInput("Password123");
+		loginPage.setPasswordInput(readConfig.getPassword());
 		logger.info("Enter password");
 				
 		//click submit button
 		loginPage.clickLoginButton();
 		logger.info("login submit button clicked!");
+		
+		//upon successful login, navigated back to home page
+		wait.until(d -> homePage.getWelcomeMessage().contains("John"));
+		logger.info(driver.getCurrentUrl());
+		
+		String userNameText = homePage.getWelcomeMessage();
+		
+		if(userNameText.contains(readConfig.getUserName())) {
 
-		logger.info("*****EnterValidLoginCredentialsTest Ends*****");
+			logger.info("verify login test -- passed");
+		}else {
+			logger.info("verify login test -- failed");
+			captureScreenshot(driver, "loginSuccessTest");
+			throw new Exception("User Name not found, user login failed!");
+		}
+
+		logger.info("*******LoginSuccessTest Ends********");
+
 	}
 	
 	@Test(priority = 3)
 	public void searchProductTest() throws IOException {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		HomePage homePage = new HomePage(driver);
 		
 		logger.info("*****SearchProductTest Starts*****");
-
-		wait.until(d -> homePage.getWelcomeMessage().contains("John"));
-		logger.info(driver.getCurrentUrl());
-		
-		logger.info("Checked username!");
-		String userNameText = homePage.getWelcomeMessage();
-		assertTrue(userNameText.contains("John Drew"));
 
 		String searchEntry = "Selene Yoga Hoodie";
 
@@ -84,6 +96,7 @@ public class ProductSearchTest extends BaseClass {
 		
 		logger.info("*****SearchProductTest Ends*****");
 	}
+
 	
 	@Test(priority = 4)
 	public void findSearchedEntryProductTest() throws IOException {
@@ -110,7 +123,7 @@ public class ProductSearchTest extends BaseClass {
 	}
 	
 	
-	@Test(enabled = false)
+	@Test(priority = 5)
 	public void goToProductPageTest() throws IOException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 
@@ -133,7 +146,7 @@ public class ProductSearchTest extends BaseClass {
 		logger.info("*****FindSearchedEntryProductTest Ends*****");
 	}
 	
-	@Test(priority = 5)
+	@Test(priority = 6)
 	public void homePageLogoutTest() throws IOException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		

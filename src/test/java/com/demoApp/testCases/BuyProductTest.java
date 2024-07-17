@@ -22,61 +22,96 @@ import com.demoApp.pageObject.OrderDetailsReceiptPage;
 import com.demoApp.pageObject.OrderSuccessPage;
 import com.demoApp.pageObject.PrintOrderPage;
 import com.demoApp.pageObject.SearchProductPage;
+import com.demoApp.utilities.ReadConfig;
 
 public class BuyProductTest extends BaseClass {
-	
-	
-	@Test
-	public void verifyBuyProductTest() throws IOException, InterruptedException, ParseException {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
-		
-		logger.info("*************************VerifyBuyProductTest Starts**************************");
 
+	@Test(priority = 1)
+	public void clickLoginLinkTest() throws IOException {
+		logger.info("*************************VerifyBuyProductTest Starts**************************");
 		logger.info("Verfiy buy product test execution started...");
+
+		logger.info("*****ClickLoginLinkTest Starts*****");
 		logger.info(driver.getCurrentUrl());
-		logger.info("URL opened!");
+		logger.info("Home page opened!");
 
 		HomePage homePage = new HomePage(driver);
-		SearchProductPage searchProductPage = new SearchProductPage(driver, wait);
-		CheckoutPage checkoutPage = new CheckoutPage(driver, wait);
-		OrderSuccessPage orderSuccessPage = new OrderSuccessPage(driver, wait);
-		OrderDetailsReceiptPage orderDetailsReceiptPage = new OrderDetailsReceiptPage(driver, wait);
-		PrintOrderPage printOrderPage = new PrintOrderPage(driver);
-		
-		
-		
+
 		homePage.clickLoginElement();
 		logger.info("login link clicked!");
+		
+		logger.info("*****ClickLoginLinkTest Ends*****");
+	}
+	
+	
+	@Test(priority = 2)
+	public void loginSuccessTest() throws Exception {
+		ReadConfig readConfig = new ReadConfig();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 
-		//navigated to login page
+		HomePage homePage = new HomePage(driver);
 		LoginPage loginPage = new LoginPage(driver);
 		
+		logger.info("*******LoginSuccessTest Starts********");
+
+		//navigated to login page		
 		wait.until(d -> loginPage.isUrl());
 		logger.info(driver.getCurrentUrl());
 		logger.info("login page opened!");
 		
 		//type Input values
-		loginPage.setEmailInput("johnDrew@test.com");
+		loginPage.setEmailInput(readConfig.getUserEmail());
 		logger.info("Entered email address");
-		loginPage.setPasswordInput("Password123");
+		loginPage.setPasswordInput(readConfig.getPassword());
 		logger.info("Enter password");
 				
 		//click submit button
 		loginPage.clickLoginButton();
 		logger.info("login submit button clicked!");
-
-		wait.until(d -> driver.getCurrentUrl().equals("https://magento.softwaretestingboard.com/"));
+		
+		//upon successful login, navigated back to home page
 		wait.until(d -> homePage.getWelcomeMessage().contains("John"));
 		logger.info(driver.getCurrentUrl());
 		
-		logger.info("Checked username!");
 		String userNameText = homePage.getWelcomeMessage();
-		assertTrue(userNameText.contains("John Drew"));
+		
+		if(userNameText.contains(readConfig.getUserName())) {
+
+			logger.info("verify login test -- passed");
+		}else {
+			logger.info("verify login test -- failed");
+			captureScreenshot(driver, "loginSuccessTest");
+			throw new Exception("User Name not found, user login failed!");
+		}
+
+		logger.info("*******LoginSuccessTest Ends********");
+
+	}
+
+	
+	@Test(priority = 3)
+	public void searchProductTest() throws IOException {
+		HomePage homePage = new HomePage(driver);
+		
+		logger.info("*****SearchProductTest Starts*****");
 
 		String searchEntry = "Selene Yoga Hoodie";
+
 		//Enter product name in search input
 		homePage.setSearchInputData(searchEntry + Keys.ENTER);
 		logger.info("Entered product name in search input and clicked enter!");
+		
+		logger.info("*****SearchProductTest Ends*****");
+	}
+	
+	@Test(priority = 4)
+	public void findSearchedEntryProductTest() throws IOException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+		SearchProductPage searchProductPage = new SearchProductPage(driver, wait);
+		
+		logger.info("*****FindSearchedEntryProductTest Starts*****");
+
+		String searchEntry = "Selene Yoga Hoodie";
 		
 		String searchurl = "https://magento.softwaretestingboard.com/catalogsearch/result/?q=Selene+Yoga+Hoodie";		
 		System.out.println(driver.getCurrentUrl());
@@ -88,6 +123,18 @@ public class BuyProductTest extends BaseClass {
 		searchProductPage.getSearchedProduct();
 		assertTrue(searchProductPage.searchedProductPresent(searchEntry));
 		logger.info("searched product found!");
+
+		
+		logger.info("*****FindSearchedEntryProductTest Ends*****");
+	}
+	
+	
+	@Test(priority = 5)
+	public void productAddToCartTest() throws IOException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+		SearchProductPage searchProductPage = new SearchProductPage(driver, wait);
+		
+		logger.info("*****ProductAddToCartTest Starts*****");
 
 		searchProductPage.selectLSize();
 		logger.info("selected size!");
@@ -103,6 +150,23 @@ public class BuyProductTest extends BaseClass {
 		
 		assertTrue(searchProductPage.iscartCountUpdated());
 		logger.info("cart count updated!");
+		
+		logger.info("*****ProductAddToCartTest Ends*****");
+	}
+	
+	@Test(dependsOnMethods = {"loginSuccessTest","productAddToCartTest"})
+	public void verifyBuyProductTest() throws IOException, InterruptedException, ParseException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
+		
+		HomePage homePage = new HomePage(driver);
+		SearchProductPage searchProductPage = new SearchProductPage(driver, wait);
+		CheckoutPage checkoutPage = new CheckoutPage(driver, wait);
+		OrderSuccessPage orderSuccessPage = new OrderSuccessPage(driver, wait);
+		OrderDetailsReceiptPage orderDetailsReceiptPage = new OrderDetailsReceiptPage(driver, wait);
+		PrintOrderPage printOrderPage = new PrintOrderPage(driver);
+		String searchEntry = "Selene Yoga Hoodie";
+				
+
 
 		searchProductPage.clickCartButton();
 		logger.info("cart button clicked!");

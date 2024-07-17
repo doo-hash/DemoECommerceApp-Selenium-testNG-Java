@@ -3855,3 +3855,384 @@ PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©
 [INFO ] 2024-07-17 00:53:00.725 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
 [INFO ] 2024-07-17 00:53:00.726 [main] DemoECommerceApp-Selenium-testNG-Java - *****HomePageLogoutTest Ends*****
 [INFO ] 2024-07-17 00:53:00.726 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyProductSearchTest Ends**************************
+[INFO ] 2024-07-17 08:53:06.604 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyProductSearchTest Starts**************************
+[INFO ] 2024-07-17 08:53:06.657 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy product search test execution started...
+[INFO ] 2024-07-17 08:53:06.657 [main] DemoECommerceApp-Selenium-testNG-Java - *****ClickLoginLinkTest Starts*****
+[INFO ] 2024-07-17 08:53:06.678 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 08:53:06.678 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 08:53:08.813 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 08:53:08.813 [main] DemoECommerceApp-Selenium-testNG-Java - *****ClickLoginLinkTest Ends*****
+[INFO ] 2024-07-17 08:53:09.063 [main] DemoECommerceApp-Selenium-testNG-Java - *****EnterValidLoginCredentialsTest Starts*****
+[INFO ] 2024-07-17 08:53:09.093 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 08:53:09.093 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 08:53:09.261 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 08:53:09.423 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 08:53:11.885 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 08:53:11.885 [main] DemoECommerceApp-Selenium-testNG-Java - *****EnterValidLoginCredentialsTest Ends*****
+[INFO ] 2024-07-17 08:53:11.910 [main] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Starts*****
+[INFO ] 2024-07-17 08:53:13.336 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 08:53:13.336 [main] DemoECommerceApp-Selenium-testNG-Java - Checked username!
+[INFO ] 2024-07-17 08:53:15.864 [main] DemoECommerceApp-Selenium-testNG-Java - Entered product name in search input and clicked enter!
+[INFO ] 2024-07-17 08:53:15.864 [main] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Ends*****
+[INFO ] 2024-07-17 08:53:15.901 [main] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Starts*****
+[INFO ] 2024-07-17 08:53:15.923 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to searched product page!
+[INFO ] 2024-07-17 08:53:17.763 [main] DemoECommerceApp-Selenium-testNG-Java - searched product found!
+[INFO ] 2024-07-17 08:53:17.763 [main] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Ends*****
+[INFO ] 2024-07-17 08:53:17.773 [main] DemoECommerceApp-Selenium-testNG-Java - *****HomePageLogoutTest Starts*****
+[INFO ] 2024-07-17 08:53:17.898 [main] DemoECommerceApp-Selenium-testNG-Java - Account dropdown is open now!
+[INFO ] 2024-07-17 08:53:22.387 [main] DemoECommerceApp-Selenium-testNG-Java - logged out!
+[INFO ] 2024-07-17 08:53:22.417 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/logoutSuccess/?q=Selene+Yoga+Hoodie
+[INFO ] 2024-07-17 08:53:28.366 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 08:53:28.366 [main] DemoECommerceApp-Selenium-testNG-Java - *****HomePageLogoutTest Ends*****
+[INFO ] 2024-07-17 08:53:28.367 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyProductSearchTest Ends**************************
+[INFO ] 2024-07-17 09:00:04.179 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:00:04.195 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:00:04.195 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:00:04.212 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:00:04.212 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:00:06.299 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:00:06.299 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:00:06.362 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:00:06.362 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:00:06.563 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:00:06.688 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:00:09.066 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:00:10.466 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:00:10.540 [main] DemoECommerceApp-Selenium-testNG-Java - verify login test -- passed
+[INFO ] 2024-07-17 09:00:10.678 [main] DemoECommerceApp-Selenium-testNG-Java - Account dropdown is open now!
+[INFO ] 2024-07-17 09:00:18.937 [main] DemoECommerceApp-Selenium-testNG-Java - logged out!
+[INFO ] 2024-07-17 09:09:54.822 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:09:54.822 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:09:54.822 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:09:54.845 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:09:54.845 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:09:58.681 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:09:58.681 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:09:58.706 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Starts********
+[INFO ] 2024-07-17 09:09:58.748 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:09:58.748 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:09:58.927 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:09:59.062 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:10:01.514 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:10:01.517 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Ends********
+[INFO ] 2024-07-17 09:10:01.540 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:10:02.974 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:10:03.024 [main] DemoECommerceApp-Selenium-testNG-Java - verify login test -- passed
+[INFO ] 2024-07-17 09:10:03.027 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Ends********
+[INFO ] 2024-07-17 09:10:03.030 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Starts********
+[INFO ] 2024-07-17 09:10:03.183 [main] DemoECommerceApp-Selenium-testNG-Java - Account dropdown is open now!
+[INFO ] 2024-07-17 09:10:10.942 [main] DemoECommerceApp-Selenium-testNG-Java - logged out!
+[INFO ] 2024-07-17 09:11:26.265 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:11:26.273 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:11:26.274 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:11:26.283 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:11:26.286 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:11:28.499 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:11:28.503 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:11:28.526 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Starts********
+[INFO ] 2024-07-17 09:11:28.548 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:11:28.548 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:11:28.751 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:11:28.931 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:11:31.047 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:11:31.047 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Ends********
+[INFO ] 2024-07-17 09:11:31.059 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:11:32.359 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:11:32.435 [main] DemoECommerceApp-Selenium-testNG-Java - verify login test -- passed
+[INFO ] 2024-07-17 09:11:32.438 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Ends********
+[INFO ] 2024-07-17 09:11:32.454 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Starts********
+[INFO ] 2024-07-17 09:11:32.610 [main] DemoECommerceApp-Selenium-testNG-Java - Account dropdown is open now!
+[INFO ] 2024-07-17 09:11:34.356 [main] DemoECommerceApp-Selenium-testNG-Java - logged out!
+[INFO ] 2024-07-17 09:11:34.381 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/logoutSuccess/
+[INFO ] 2024-07-17 09:11:34.381 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to logout success page!
+[INFO ] 2024-07-17 09:11:40.313 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:11:40.313 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to home page!
+[INFO ] 2024-07-17 09:11:40.313 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Ends********
+[INFO ] 2024-07-17 09:11:40.313 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Ends**************************
+[INFO ] 2024-07-17 09:13:55.727 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:13:55.736 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:13:55.736 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:13:55.753 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:13:55.753 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:13:57.770 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:13:57.770 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:13:57.804 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Starts********
+[INFO ] 2024-07-17 09:13:57.835 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:13:57.836 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:13:58.064 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:13:58.217 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:14:01.239 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:14:01.243 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Ends********
+[INFO ] 2024-07-17 09:14:01.269 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:14:02.576 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Starts********
+[INFO ] 2024-07-17 09:14:02.711 [main] DemoECommerceApp-Selenium-testNG-Java - Account dropdown is open now!
+[INFO ] 2024-07-17 09:14:05.503 [main] DemoECommerceApp-Selenium-testNG-Java - logged out!
+[INFO ] 2024-07-17 09:14:05.536 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/logoutSuccess/
+[INFO ] 2024-07-17 09:14:05.536 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to logout success page!
+[INFO ] 2024-07-17 09:14:11.186 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:14:11.186 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to home page!
+[INFO ] 2024-07-17 09:14:11.186 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Ends********
+[INFO ] 2024-07-17 09:14:11.186 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Ends**************************
+[INFO ] 2024-07-17 09:15:26.547 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:15:26.554 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:15:26.557 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:15:26.584 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:15:26.584 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:15:27.854 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:15:28.014 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:15:28.059 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Starts********
+[INFO ] 2024-07-17 09:15:28.082 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:15:28.082 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:15:28.320 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:15:28.439 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:15:31.260 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:15:31.260 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Ends********
+[INFO ] 2024-07-17 09:15:31.272 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:15:32.644 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:15:32.742 [main] DemoECommerceApp-Selenium-testNG-Java - verify login test -- passed
+[INFO ] 2024-07-17 09:15:32.742 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Ends********
+[INFO ] 2024-07-17 09:15:32.755 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Starts********
+[INFO ] 2024-07-17 09:15:32.892 [main] DemoECommerceApp-Selenium-testNG-Java - Account dropdown is open now!
+[INFO ] 2024-07-17 09:15:35.217 [main] DemoECommerceApp-Selenium-testNG-Java - logged out!
+[INFO ] 2024-07-17 09:15:35.250 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/logoutSuccess/
+[INFO ] 2024-07-17 09:15:35.250 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to logout success page!
+[INFO ] 2024-07-17 09:15:40.903 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:15:40.904 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to home page!
+[INFO ] 2024-07-17 09:15:40.905 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Ends********
+[INFO ] 2024-07-17 09:15:40.908 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Ends**************************
+[INFO ] 2024-07-17 09:18:57.860 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:18:57.868 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:18:57.868 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:18:57.884 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:18:57.884 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:19:01.476 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:19:01.476 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:19:01.524 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Starts********
+[INFO ] 2024-07-17 09:19:01.553 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:19:01.553 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:19:01.813 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:19:02.050 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:19:04.313 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:19:04.315 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Ends********
+[INFO ] 2024-07-17 09:19:04.346 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:21:17.469 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:21:17.479 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:21:17.479 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:21:17.517 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:21:17.517 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:21:19.417 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:21:19.417 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:21:19.436 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Starts********
+[INFO ] 2024-07-17 09:21:19.464 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:21:19.465 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:21:19.640 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:21:19.780 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:21:22.278 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:21:22.278 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Ends********
+[INFO ] 2024-07-17 09:21:22.293 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:28:37.907 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:28:37.907 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:28:37.907 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:28:37.935 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:28:37.935 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:28:41.429 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:28:41.429 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:28:41.468 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Starts********
+[INFO ] 2024-07-17 09:28:41.495 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:28:41.497 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:28:41.717 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:28:41.878 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:30:51.914 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:30:51.914 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Ends********
+[INFO ] 2024-07-17 09:30:51.944 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:31:27.642 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:31:27.657 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:31:27.657 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:31:27.675 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:31:27.675 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:31:29.009 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:31:29.009 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:31:29.029 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Starts********
+[INFO ] 2024-07-17 09:31:29.056 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:31:29.056 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:31:29.251 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:31:29.404 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:31:33.078 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:31:33.078 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Ends********
+[INFO ] 2024-07-17 09:31:33.099 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:41:53.882 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:41:53.882 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:41:53.882 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:41:53.902 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:41:53.902 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:41:55.556 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:41:55.556 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:41:55.582 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Starts********
+[INFO ] 2024-07-17 09:41:55.609 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:41:55.609 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:41:55.832 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:41:56.069 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:41:58.100 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:41:58.100 [main] DemoECommerceApp-Selenium-testNG-Java - *******EnterValidLoginCredentialsTest Ends********
+[INFO ] 2024-07-17 09:41:58.116 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:44:31.825 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:44:31.827 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:44:31.827 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:44:31.843 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:44:31.843 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:44:33.915 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:44:33.915 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:44:33.963 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:44:33.996 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:44:33.996 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:44:34.217 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:44:34.414 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:44:36.493 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:46:16.463 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:46:16.478 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:46:16.478 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:46:16.497 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:46:16.497 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:46:38.522 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:46:38.525 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:46:38.556 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:46:38.590 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:46:38.590 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:46:38.814 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:46:39.610 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:46:57.866 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:46:58.044 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:46:58.152 [main] DemoECommerceApp-Selenium-testNG-Java - verify login test -- failed
+[INFO ] 2024-07-17 09:49:56.641 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:49:56.655 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:49:56.655 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:49:56.673 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:49:56.673 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:50:18.709 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:50:18.709 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:50:18.777 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:50:18.814 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:50:18.821 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:50:19.022 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:50:19.187 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:50:36.712 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:50:36.821 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:50:36.882 [main] DemoECommerceApp-Selenium-testNG-Java - verify login test -- passed
+[INFO ] 2024-07-17 09:50:36.894 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Ends********
+[INFO ] 2024-07-17 09:50:36.908 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Starts********
+[INFO ] 2024-07-17 09:50:37.114 [main] DemoECommerceApp-Selenium-testNG-Java - Account dropdown is open now!
+[INFO ] 2024-07-17 09:50:40.531 [main] DemoECommerceApp-Selenium-testNG-Java - logged out!
+[INFO ] 2024-07-17 09:50:40.582 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/logoutSuccess/
+[INFO ] 2024-07-17 09:50:40.582 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to logout success page!
+[INFO ] 2024-07-17 09:50:46.473 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:50:46.473 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to home page!
+[INFO ] 2024-07-17 09:50:46.473 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Ends********
+[INFO ] 2024-07-17 09:50:46.475 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Ends**************************
+[INFO ] 2024-07-17 09:52:10.610 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 09:52:10.630 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 09:52:10.630 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 09:52:10.648 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:52:10.648 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 09:52:13.990 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 09:52:13.990 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 09:52:14.036 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 09:52:14.086 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 09:52:14.086 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 09:52:14.292 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 09:52:14.445 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 09:52:16.471 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 09:52:17.784 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 09:52:17.825 [main] DemoECommerceApp-Selenium-testNG-Java - verify login test -- failed
+[INFO ] 2024-07-17 10:44:33.993 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 10:44:33.993 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 10:44:34.009 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 10:44:34.009 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 10:44:34.009 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 10:44:35.269 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 10:44:35.269 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 10:44:35.316 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 10:44:35.401 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 10:44:35.401 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 10:44:35.518 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 10:44:35.611 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 10:44:38.547 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 10:44:40.472 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 10:44:40.509 [main] DemoECommerceApp-Selenium-testNG-Java - verify login test -- failed
+[INFO ] 2024-07-17 10:51:43.806 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 10:51:43.822 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 10:51:43.822 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 10:51:43.822 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 10:51:43.822 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 10:51:46.441 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 10:51:46.442 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 10:51:46.482 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 10:51:46.489 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 10:51:46.489 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 10:51:46.620 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 10:51:46.729 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 10:51:49.381 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 10:51:51.138 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 10:51:51.180 [main] DemoECommerceApp-Selenium-testNG-Java - verify login test -- failed
+[INFO ] 2024-07-17 10:51:51.856 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Ends********
+[INFO ] 2024-07-17 10:51:51.872 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Starts********
+[INFO ] 2024-07-17 10:51:51.980 [main] DemoECommerceApp-Selenium-testNG-Java - Account dropdown is open now!
+[INFO ] 2024-07-17 10:51:54.197 [main] DemoECommerceApp-Selenium-testNG-Java - logged out!
+[INFO ] 2024-07-17 10:51:54.216 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/logoutSuccess/
+[INFO ] 2024-07-17 10:51:54.216 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to logout success page!
+[INFO ] 2024-07-17 10:52:00.021 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 10:52:00.021 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to home page!
+[INFO ] 2024-07-17 10:52:00.021 [main] DemoECommerceApp-Selenium-testNG-Java - *******LogoutSuccessTest Ends********
+[INFO ] 2024-07-17 10:52:00.022 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Ends**************************
+[INFO ] 2024-07-17 10:54:22.585 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLoginTest Starts**************************
+[INFO ] 2024-07-17 10:54:22.585 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy login test execution started...
+[INFO ] 2024-07-17 10:54:22.585 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-07-17 10:54:22.600 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 10:54:22.600 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 10:54:27.564 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 10:54:27.565 [main] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-07-17 10:54:27.609 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 10:54:27.614 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 10:54:27.614 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 10:54:27.761 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 10:54:27.895 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 10:54:49.434 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 11:16:39.299 [main] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Starts*****
+[INFO ] 2024-07-17 11:16:47.641 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 11:16:56.004 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyBuyProductTest Starts**************************
+[INFO ] 2024-07-17 11:16:56.004 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy buy product test execution started...
+[INFO ] 2024-07-17 11:16:56.004 [main] DemoECommerceApp-Selenium-testNG-Java - *****ClickLoginLinkTest Starts*****
+[INFO ] 2024-07-17 11:16:56.020 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 11:16:56.020 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 11:17:35.710 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 11:17:35.710 [main] DemoECommerceApp-Selenium-testNG-Java - *****ClickLoginLinkTest Ends*****
+[INFO ] 2024-07-17 11:17:35.710 [main] DemoECommerceApp-Selenium-testNG-Java - *****ProductAddToCartTest Starts*****
+[INFO ] 2024-07-17 11:17:45.795 [main] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Starts*****
+[INFO ] 2024-07-17 11:17:49.249 [main] DemoECommerceApp-Selenium-testNG-Java - Entered product name in search input and clicked enter!
+[INFO ] 2024-07-17 11:17:49.249 [main] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Ends*****
+[INFO ] 2024-07-17 11:26:58.453 [main] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyBuyProductTest Starts**************************
+[INFO ] 2024-07-17 11:26:58.578 [main] DemoECommerceApp-Selenium-testNG-Java - Verfiy buy product test execution started...
+[INFO ] 2024-07-17 11:26:58.578 [main] DemoECommerceApp-Selenium-testNG-Java - *****ClickLoginLinkTest Starts*****
+[INFO ] 2024-07-17 11:26:58.906 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-07-17 11:26:58.906 [main] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-07-17 11:27:03.065 [main] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-07-17 11:27:03.065 [main] DemoECommerceApp-Selenium-testNG-Java - *****ClickLoginLinkTest Ends*****
+[INFO ] 2024-07-17 11:27:03.241 [main] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-07-17 11:27:03.257 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-07-17 11:27:03.257 [main] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-07-17 11:27:04.247 [main] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-07-17 11:27:04.356 [main] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-07-17 11:27:06.786 [main] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-07-17 11:27:08.379 [main] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Starts*****
+[INFO ] 2024-07-17 11:27:10.106 [main] DemoECommerceApp-Selenium-testNG-Java - Entered product name in search input and clicked enter!
+[INFO ] 2024-07-17 11:27:10.106 [main] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Ends*****
+[INFO ] 2024-07-17 11:27:10.487 [main] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Starts*****
+[INFO ] 2024-07-17 11:27:10.503 [main] DemoECommerceApp-Selenium-testNG-Java - Redirected to searched product page!
+[INFO ] 2024-07-17 11:27:13.103 [main] DemoECommerceApp-Selenium-testNG-Java - searched product found!
+[INFO ] 2024-07-17 11:27:13.103 [main] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Ends*****
+[INFO ] 2024-07-17 11:27:13.103 [main] DemoECommerceApp-Selenium-testNG-Java - *****ProductAddToCartTest Starts*****
+[INFO ] 2024-07-17 11:27:13.212 [main] DemoECommerceApp-Selenium-testNG-Java - selected size!
+[INFO ] 2024-07-17 11:27:13.336 [main] DemoECommerceApp-Selenium-testNG-Java - selected color!
+[INFO ] 2024-07-17 11:27:13.447 [main] DemoECommerceApp-Selenium-testNG-Java - add to cart button clicked!
+[INFO ] 2024-07-17 11:27:15.775 [main] DemoECommerceApp-Selenium-testNG-Java - product added to cart alert message!
+[INFO ] 2024-07-17 11:27:15.937 [main] DemoECommerceApp-Selenium-testNG-Java - cart count updated!
+[INFO ] 2024-07-17 11:27:15.953 [main] DemoECommerceApp-Selenium-testNG-Java - *****ProductAddToCartTest Ends*****
