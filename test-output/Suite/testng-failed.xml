@@ -4,16 +4,20 @@
   <listeners>
     <listener class-name="com.demoApp.utilities.ExtentListenerClass"/>
   </listeners>
-  <test thread-count="5" name="LoginTest(failed)">
+  <test thread-count="5" name="BuyProductTest(failed)">
     <classes>
-      <class name="com.demoApp.testCases.LoginPageTest">
+      <class name="com.demoApp.testCases.BuyProductTest">
         <methods>
+          <include name="logoutTest"/>
           <include name="tearDown"/>
-          <include name="logoutSuccessTest"/>
-          <include name="loginSuccessTest"/>
+          <include name="placeOrderTest"/>
+          <include name="checkOrderDetailsTest"/>
+          <include name="printOrderTest"/>
           <include name="setup"/>
+          <include name="loginSuccessTest"/>
+          <include name="orderSuccessandReceiptTest"/>
         </methods>
-      </class> <!-- com.demoApp.testCases.LoginPageTest -->
+      </class> <!-- com.demoApp.testCases.BuyProductTest -->
     </classes>
-  </test> <!-- LoginTest(failed) -->
+  </test> <!-- BuyProductTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

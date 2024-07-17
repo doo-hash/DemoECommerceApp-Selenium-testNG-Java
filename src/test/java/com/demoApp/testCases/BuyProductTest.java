@@ -26,7 +26,8 @@ import com.demoApp.utilities.ReadConfig;
 
 public class BuyProductTest extends BaseClass {
 
-	@Test(priority = 1)
+	
+	@Test
 	public void clickLoginLinkTest() throws IOException {
 		logger.info("*************************VerifyBuyProductTest Starts**************************");
 		logger.info("Verfiy buy product test execution started...");
@@ -43,8 +44,7 @@ public class BuyProductTest extends BaseClass {
 		logger.info("*****ClickLoginLinkTest Ends*****");
 	}
 	
-	
-	@Test(priority = 2)
+	@Test
 	public void loginSuccessTest() throws Exception {
 		ReadConfig readConfig = new ReadConfig();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
@@ -89,7 +89,7 @@ public class BuyProductTest extends BaseClass {
 	}
 
 	
-	@Test(priority = 3)
+	@Test
 	public void searchProductTest() throws IOException {
 		HomePage homePage = new HomePage(driver);
 		
@@ -104,7 +104,7 @@ public class BuyProductTest extends BaseClass {
 		logger.info("*****SearchProductTest Ends*****");
 	}
 	
-	@Test(priority = 4)
+	@Test
 	public void findSearchedEntryProductTest() throws IOException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		SearchProductPage searchProductPage = new SearchProductPage(driver, wait);
@@ -129,7 +129,7 @@ public class BuyProductTest extends BaseClass {
 	}
 	
 	
-	@Test(priority = 5)
+	@Test
 	public void productAddToCartTest() throws IOException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		SearchProductPage searchProductPage = new SearchProductPage(driver, wait);
@@ -154,19 +154,13 @@ public class BuyProductTest extends BaseClass {
 		logger.info("*****ProductAddToCartTest Ends*****");
 	}
 	
-	@Test(dependsOnMethods = {"loginSuccessTest","productAddToCartTest"})
-	public void verifyBuyProductTest() throws IOException, InterruptedException, ParseException {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
-		
-		HomePage homePage = new HomePage(driver);
+	
+	@Test
+	public void proceedToCheckoutTest() throws IOException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		SearchProductPage searchProductPage = new SearchProductPage(driver, wait);
-		CheckoutPage checkoutPage = new CheckoutPage(driver, wait);
-		OrderSuccessPage orderSuccessPage = new OrderSuccessPage(driver, wait);
-		OrderDetailsReceiptPage orderDetailsReceiptPage = new OrderDetailsReceiptPage(driver, wait);
-		PrintOrderPage printOrderPage = new PrintOrderPage(driver);
-		String searchEntry = "Selene Yoga Hoodie";
-				
-
+		
+		logger.info("*****ProceedToCheckoutTest Starts*****");
 
 		searchProductPage.clickCartButton();
 		logger.info("cart button clicked!");
@@ -174,7 +168,17 @@ public class BuyProductTest extends BaseClass {
 		searchProductPage.clickCheckOutButton();
 		logger.info("checkOut button clicked!");
 		
+		logger.info("*****ProceedToCheckoutTest Ends*****");
+	}
+	
+	
+	@Test(dependsOnMethods = "loginSuccessTest")
+	public void checkBillingAddressTest() throws IOException, InterruptedException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+		CheckoutPage checkoutPage = new CheckoutPage(driver, wait);
 		
+		logger.info("*****CheckBillingAddressTest Starts*****");
+
 		wait.until(d -> driver.getCurrentUrl().equals("https://magento.softwaretestingboard.com/checkout/#shipping"));
 		logger.info(driver.getCurrentUrl());
 		logger.info("checkout page opened!");
@@ -184,11 +188,32 @@ public class BuyProductTest extends BaseClass {
 		checkoutPage.isShippingAddressDisplayed();
 		logger.info("shipping address selected!");
 		
+		logger.info("*****CheckBillingAddressTest Ends*****");
+	}
+	
+
+	@Test(dependsOnMethods = "loginSuccessTest")
+	public void checkOrderDetailsTest() throws IOException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+		CheckoutPage checkoutPage = new CheckoutPage(driver, wait);
+		
+		logger.info("*****CheckOrderDetailsTest Starts*****");
+
 		checkoutPage.clickToSeeOrders();
 		logger.info("order summary list!");
 		
 		checkoutPage.clickNextButton();
 		logger.info("next button clicked!");
+		
+		logger.info("*****CheckOrderDetailsTest Ends*****");
+	}
+	
+	@Test(dependsOnMethods = {"loginSuccessTest", "checkOrderDetailsTest"})
+	public void placeOrderTest() throws IOException, InterruptedException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+		CheckoutPage checkoutPage = new CheckoutPage(driver, wait);
+		
+		logger.info("*****PlaceOrderTest Starts*****");
 
 		wait.until(d -> driver.getCurrentUrl().equals("https://magento.softwaretestingboard.com/checkout/#payment"));
 		logger.info(driver.getCurrentUrl());
@@ -200,6 +225,20 @@ public class BuyProductTest extends BaseClass {
 		checkoutPage.clickPlaceOrderButton();
 		logger.info("place order button clicked!");
 		
+		logger.info("*****PlaceOrderTest Ends*****");
+	}
+	
+	
+	@Test(dependsOnMethods = {"loginSuccessTest", "checkOrderDetailsTest","placeOrderTest"})
+	public void orderSuccessandReceiptTest() throws IOException, InterruptedException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+		OrderSuccessPage orderSuccessPage = new OrderSuccessPage(driver, wait);
+		OrderDetailsReceiptPage orderDetailsReceiptPage = new OrderDetailsReceiptPage(driver, wait);
+
+		String searchEntry = "Selene Yoga Hoodie";
+
+		logger.info("*****OrderSuccessandReceiptTest Starts*****");
+
 		wait.until(d -> driver.getCurrentUrl().equals("https://magento.softwaretestingboard.com/checkout/onepage/success/"));
 		logger.info(driver.getCurrentUrl());
 		logger.info("order confirmation page opened!");
@@ -220,6 +259,7 @@ public class BuyProductTest extends BaseClass {
 		String orderDate = orderDetailsReceiptPage.getOrderDate();
 		Calendar calendar = Calendar.getInstance();
 		Date now = new Date();
+		System.out.println(now);
 		calendar.setTime(now);
 		int date = calendar.DAY_OF_MONTH;
 		int year = calendar.YEAR;
@@ -237,7 +277,18 @@ public class BuyProductTest extends BaseClass {
 
 		orderDetailsReceiptPage.scrollDownToOrederInfo();
 		logger.info("scroll down to see billing address!");
-		
+
+		logger.info("*****OrderSuccessandReceiptTest Ends*****");
+	}
+	
+	
+	@Test(dependsOnMethods = {"loginSuccessTest", "checkOrderDetailsTest","placeOrderTest","orderSuccessandReceiptTest"})
+	public void printOrderTest() throws IOException, InterruptedException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+		OrderDetailsReceiptPage orderDetailsReceiptPage = new OrderDetailsReceiptPage(driver, wait);
+
+		logger.info("*****PrintOrderTest Starts*****");
+
 		orderDetailsReceiptPage.clickPrintOrder();
 		logger.info("clicked print order!");
 
@@ -247,13 +298,13 @@ public class BuyProductTest extends BaseClass {
 		wait.until(d -> driver.getCurrentUrl().contains("https://magento.softwaretestingboard.com/sales/order/print/order_id/"));
 		logger.info(driver.getCurrentUrl());
 		logger.info("switched to print order page!");
-//		Thread.sleep(1000);
 		
 		System.out.println(driver.getWindowHandles().toArray().length);
 //		Object[] newWindowHandles = driver.getWindowHandles().toArray();
 //		driver.switchTo().window(newWindowHandles[2].toString());
 //		logger.info("switched to print page!");
 
+//		PrintOrderPage printOrderPage = new PrintOrderPage(driver);				
 //		printOrderPage.clickCancelButton();
 //		logger.info("cancelled the order print!");
 
@@ -267,11 +318,23 @@ public class BuyProductTest extends BaseClass {
 
 		driver.close();
 		logger.info("closed print order page!");
+
+		logger.info("*****PrintOrderTest Ends*****");
+	}
+	
+	
+	@Test(dependsOnMethods = {"loginSuccessTest", "checkOrderDetailsTest","placeOrderTest","orderSuccessandReceiptTest"})
+	public void logoutTest() throws IOException, InterruptedException, ParseException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
+		
+		HomePage homePage = new HomePage(driver);
+		OrderDetailsReceiptPage orderDetailsReceiptPage = new OrderDetailsReceiptPage(driver, wait);
+
+		logger.info("*****LogoutTest Starts*****");
 		
 		Object[] curentWindowHandles = driver.getWindowHandles().toArray();
 		driver.switchTo().window(curentWindowHandles[0].toString());
-		
-		
+				
 		//logout
 		orderDetailsReceiptPage.clickAccountDropdown();
 		wait.until(d -> orderDetailsReceiptPage.isDropdownVisible());
@@ -291,6 +354,8 @@ public class BuyProductTest extends BaseClass {
 		wait.until(d -> homePage.isUrl());
 		logger.info(driver.getCurrentUrl());
 		Assert.assertTrue(true);
+
+		logger.info("*****LogoutTest Ends*****");
 		
 		logger.info("*************************VerifyProductSearchTest Ends**************************");
 		

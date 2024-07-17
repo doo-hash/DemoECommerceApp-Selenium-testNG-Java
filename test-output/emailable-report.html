@@ -8,93 +8,38 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">217,724</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">CreateAccountTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">25,031</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">LoginTest</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">40,309</td><td></td><td></td></tr>
+<tr><td><a href="#t2">ProductSearchTest</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">41,418</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">BuyProductTest</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">123,278</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">21</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">230,036</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.demoApp.testCases.BuyProductTest</td><td><a href="#m0">loginSuccessTest</a></td><td rowspan="1">1721195823241</td><td rowspan="1">4920</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.demoApp.testCases.BuyProductTest</td><td><a href="#m1">verifyBuyProductTest</a></td><td rowspan="1">1721195828348</td><td rowspan="1">16</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.demoApp.testCases.BuyProductTest</td><td><a href="#m2">clickLoginLinkTest</a></td><td rowspan="1">1721195818375</td><td rowspan="1">4690</td></tr><tr class="passedeven"><td><a href="#m3">findSearchedEntryProductTest</a></td><td rowspan="1">1721195830111</td><td rowspan="1">2992</td></tr><tr class="passedeven"><td><a href="#m4">productAddToCartTest</a></td><td rowspan="1">1721195833103</td><td rowspan="1">2850</td></tr><tr class="passedeven"><td><a href="#m5">searchProductTest</a></td><td rowspan="1">1721195828379</td><td rowspan="1">1728</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">CreateAccountTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.demoApp.testCases.CreateAccountPageTest</td><td><a href="#m0">createNewAccountFailedTest</a></td><td rowspan="1">1721202675424</td><td rowspan="1">5976</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">LoginTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.demoApp.testCases.LoginPageTest</td><td><a href="#m1">clickLoginInHomePageTest</a></td><td rowspan="1">1721202702576</td><td rowspan="1">3971</td></tr><tr class="passedeven"><td><a href="#m2">loginSuccessTest</a></td><td rowspan="1">1721202706564</td><td rowspan="1">6190</td></tr><tr class="passedeven"><td><a href="#m3">logoutSuccessTest</a></td><td rowspan="1">1721202712762</td><td rowspan="1">9597</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">ProductSearchTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.demoApp.testCases.ProductSearchTest</td><td><a href="#m4">clickLoginLinkTest</a></td><td rowspan="1">1721202740897</td><td rowspan="1">4081</td></tr><tr class="passedeven"><td><a href="#m5">findSearchedEntryProductTest</a></td><td rowspan="1">1721202753171</td><td rowspan="1">1181</td></tr><tr class="passedeven"><td><a href="#m6">homePageLogoutTest</a></td><td rowspan="1">1721202754352</td><td rowspan="1">9097</td></tr><tr class="passedeven"><td><a href="#m7">loginSuccessTest</a></td><td rowspan="1">1721202744989</td><td rowspan="1">4602</td></tr><tr class="passedeven"><td><a href="#m8">searchProductTest</a></td><td rowspan="1">1721202749594</td><td rowspan="1">3572</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">BuyProductTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="12">com.demoApp.testCases.BuyProductTest</td><td><a href="#m9">checkBillingAddressTest</a></td><td rowspan="1">1721202863345</td><td rowspan="1">2356</td></tr><tr class="passedeven"><td><a href="#m10">checkOrderDetailsTest</a></td><td rowspan="1">1721202865708</td><td rowspan="1">945</td></tr><tr class="passedeven"><td><a href="#m11">clickLoginLinkTest</a></td><td rowspan="1">1721202803447</td><td rowspan="1">23142</td></tr><tr class="passedeven"><td><a href="#m12">findSearchedEntryProductTest</a></td><td rowspan="1">1721202855249</td><td rowspan="1">914</td></tr><tr class="passedeven"><td><a href="#m13">loginSuccessTest</a></td><td rowspan="1">1721202826607</td><td rowspan="1">25417</td></tr><tr class="passedeven"><td><a href="#m14">logoutTest</a></td><td rowspan="1">1721202878951</td><td rowspan="1">7922</td></tr><tr class="passedeven"><td><a href="#m15">orderSuccessandReceiptTest</a></td><td rowspan="1">1721202870550</td><td rowspan="1">5810</td></tr><tr class="passedeven"><td><a href="#m16">placeOrderTest</a></td><td rowspan="1">1721202866660</td><td rowspan="1">3885</td></tr><tr class="passedeven"><td><a href="#m17">printOrderTest</a></td><td rowspan="1">1721202876363</td><td rowspan="1">2568</td></tr><tr class="passedeven"><td><a href="#m18">proceedToCheckoutTest</a></td><td rowspan="1">1721202858777</td><td rowspan="1">4557</td></tr><tr class="passedeven"><td><a href="#m19">productAddToCartTest</a></td><td rowspan="1">1721202856165</td><td rowspan="1">2612</td></tr><tr class="passedeven"><td><a href="#m20">searchProductTest</a></td><td rowspan="1">1721202852030</td><td rowspan="1">3215</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.demoApp.testCases.BuyProductTest#loginSuccessTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: MicrosoftEdge=126.0.2592.102)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [610c94134ce5a6ce105d9fe8567ad9d9, getElementText {id=f.FB595D031059F96522B810609C7C0A94.d.DB795EB1C34BC8E05F8BA7FA1FAA2409.e.104}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51372}, msedge: {msedgedriverVersion: 126.0.2592.102 (720b5d614be..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51372/devtoo..., se:cdpVersion: 126.0.2592.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (610c94134ce5a6ce105d9fe8567ad9d9)] -&gt; xpath: //span[contains(@class,&apos;logged-in&apos;)]]
-Session ID: 610c94134ce5a6ce105d9fe8567ad9d9
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
-	at com.demoApp.pageObject.HomePage.getWelcomeMessage(HomePage.java:69)
-	at com.demoApp.testCases.BuyProductTest.lambda$1(BuyProductTest.java:73)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.demoApp.testCases.BuyProductTest.loginSuccessTest(BuyProductTest.java:73)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.demoApp.testCases.BuyProductTest#verifyBuyProductTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.demoApp.testCases.BuyProductTest.verifyBuyProductTest() on instance com.demoApp.testCases.BuyProductTest@21b2e768 depends on not successfully finished methods 
-[com.demoApp.testCases.BuyProductTest.loginSuccessTest() on instance com.demoApp.testCases.BuyProductTest@21b2e768]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.demoApp.testCases.BuyProductTest#clickLoginLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.demoApp.testCases.BuyProductTest#findSearchedEntryProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.demoApp.testCases.BuyProductTest#productAddToCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.demoApp.testCases.BuyProductTest#searchProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>CreateAccountTest</h2><h3 id="m0">com.demoApp.testCases.CreateAccountPageTest#createNewAccountFailedTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginTest</h2><h3 id="m1">com.demoApp.testCases.LoginPageTest#clickLoginInHomePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.demoApp.testCases.LoginPageTest#loginSuccessTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.demoApp.testCases.LoginPageTest#logoutSuccessTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ProductSearchTest</h2><h3 id="m4">com.demoApp.testCases.ProductSearchTest#clickLoginLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.demoApp.testCases.ProductSearchTest#findSearchedEntryProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.demoApp.testCases.ProductSearchTest#homePageLogoutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.demoApp.testCases.ProductSearchTest#loginSuccessTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.demoApp.testCases.ProductSearchTest#searchProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BuyProductTest</h2><h3 id="m9">com.demoApp.testCases.BuyProductTest#checkBillingAddressTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.demoApp.testCases.BuyProductTest#checkOrderDetailsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.demoApp.testCases.BuyProductTest#clickLoginLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.demoApp.testCases.BuyProductTest#findSearchedEntryProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.demoApp.testCases.BuyProductTest#loginSuccessTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.demoApp.testCases.BuyProductTest#logoutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.demoApp.testCases.BuyProductTest#orderSuccessandReceiptTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.demoApp.testCases.BuyProductTest#placeOrderTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.demoApp.testCases.BuyProductTest#printOrderTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.demoApp.testCases.BuyProductTest#proceedToCheckoutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.demoApp.testCases.BuyProductTest#productAddToCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.demoApp.testCases.BuyProductTest#searchProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

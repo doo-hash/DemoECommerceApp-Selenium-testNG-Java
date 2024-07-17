@@ -5,10 +5,12 @@
     <classes>
       <class name="com.demoApp.testCases.BuyProductTest">
         <methods>
+          <include name="findSearchedEntryProductTest"/>
           <include name="tearDown"/>
           <include name="verifyBuyProductTest"/>
           <include name="setup"/>
           <include name="loginSuccessTest"/>
+          <include name="productAddToCartTest"/>
         </methods>
       </class> <!-- com.demoApp.testCases.BuyProductTest -->
     </classes>

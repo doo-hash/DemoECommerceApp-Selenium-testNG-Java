@@ -4,7 +4,7 @@
 	<listeners>
 		<listener class-name="com.demoApp.utilities.ExtentListenerClass"></listener>
 	</listeners>
-	<test name="CreateAccountTest" enabled="false">
+	<test name="CreateAccountTest">
 		<classes>
 			<class name="com.demoApp.testCases.CreateAccountPageTest">
 				<methods>
@@ -13,7 +13,7 @@
 			</class>
 		</classes>
 	</test>
-		<test name="LoginTest" enabled="false">
+		<test name="LoginTest">
 		<classes>
 			<class name="com.demoApp.testCases.LoginPageTest" />
 		</classes>
@@ -23,7 +23,7 @@
 			<class name="com.demoApp.testCases.LoginPageDataDrivenTest" />
 		</classes>
 	</test>
-	<test name="ProductSearchTest" enabled="false">
+	<test name="ProductSearchTest">
 		<classes>
 			<class name="com.demoApp.testCases.ProductSearchTest">
 				<methods>
@@ -34,15 +34,20 @@
 	</test>
 		<test name="BuyProductTest">
 		<classes>
-			<class name="com.demoApp.testCases.LoginPageTest">
+			<class name="com.demoApp.testCases.BuyProductTest">
 				<methods>
-					<include name="clickLoginInHomePageTest"></include>
+					<include name="clickLoginLinkTest"></include>
 					<include name="loginSuccessTest"></include>
-				</methods>			
-			</class>
-			<class name="com.demoApp.testCases.ProductSearchTest">
-				<methods>
-					<include name="verifyBuyProductTest"></include>
+					<include name="searchProductTest"></include>
+					<include name="findSearchedEntryProductTest"></include>					
+					<include name="productAddToCartTest"></include>
+					<include name="proceedToCheckoutTest"></include>					
+					<include name="checkBillingAddressTest"></include>
+					<include name="checkOrderDetailsTest"></include>
+					<include name="placeOrderTest"></include>
+					<include name="orderSuccessandReceiptTest"></include>
+					<include name="printOrderTest"></include>
+					<include name="logoutTest"></include>
 				</methods>
 			</class>
 		</classes>

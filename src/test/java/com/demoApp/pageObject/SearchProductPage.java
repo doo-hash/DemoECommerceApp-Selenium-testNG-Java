@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.demoApp.utilities.HighlightElementClass;
@@ -121,8 +122,10 @@ public class SearchProductPage {
 	
 	//click proceed to checkout button
 	public void clickCheckOutButton() {
+		wait.until(ExpectedConditions.elementToBeClickable(checkOutButton));
 		highlightElement.highlightElement(driver, checkOutButton);
 		checkOutButton.click();
+//		checkOutButton.click();
 	}
 	
 }
