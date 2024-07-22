@@ -10,14 +10,21 @@
         <methods>
           <include name="logoutTest"/>
           <include name="tearDown"/>
+          <include name="checkBillingAddressTest"/>
           <include name="placeOrderTest"/>
           <include name="checkOrderDetailsTest"/>
           <include name="printOrderTest"/>
           <include name="setup"/>
-          <include name="loginSuccessTest"/>
           <include name="orderSuccessandReceiptTest"/>
         </methods>
       </class> <!-- com.demoApp.testCases.BuyProductTest -->
+      <class name="com.demoApp.testCases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginSuccessTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.demoApp.testCases.LoginPageTest -->
     </classes>
   </test> <!-- BuyProductTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -18,9 +18,6 @@ public class LoginPageTest extends BaseClass {
 	@Test
 	public void clickLoginInHomePageTest() throws IOException {
 		HomePage homePage = new HomePage(driver);
-
-		logger.info("*************************VerifyLoginTest Starts**************************");
-		logger.info("Verfiy login test execution started...");
 		
 		logger.info("*******ClickLoginInHomePageTest Starts********");
 		
@@ -110,8 +107,6 @@ public class LoginPageTest extends BaseClass {
 		logger.info("Redirected to home page!");
 
 		logger.info("*******LogoutSuccessTest Ends********");
-
-		logger.info("*************************VerifyLoginTest Ends**************************");
 
 	}
 	

@@ -16,78 +16,14 @@ import org.testng.annotations.Test;
 
 import com.demoApp.pageObject.CheckoutPage;
 import com.demoApp.pageObject.HomePage;
-import com.demoApp.pageObject.LoginPage;
 import com.demoApp.pageObject.LogoutSuccessPage;
 import com.demoApp.pageObject.OrderDetailsReceiptPage;
 import com.demoApp.pageObject.OrderSuccessPage;
-import com.demoApp.pageObject.PrintOrderPage;
 import com.demoApp.pageObject.SearchProductPage;
-import com.demoApp.utilities.ReadConfig;
 
 public class BuyProductTest extends BaseClass {
 
 	
-	@Test
-	public void clickLoginLinkTest() throws IOException {
-		logger.info("*************************VerifyBuyProductTest Starts**************************");
-		logger.info("Verfiy buy product test execution started...");
-
-		logger.info("*****ClickLoginLinkTest Starts*****");
-		logger.info(driver.getCurrentUrl());
-		logger.info("Home page opened!");
-
-		HomePage homePage = new HomePage(driver);
-
-		homePage.clickLoginElement();
-		logger.info("login link clicked!");
-		
-		logger.info("*****ClickLoginLinkTest Ends*****");
-	}
-	
-	@Test
-	public void loginSuccessTest() throws Exception {
-		ReadConfig readConfig = new ReadConfig();
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
-
-		HomePage homePage = new HomePage(driver);
-		LoginPage loginPage = new LoginPage(driver);
-		
-		logger.info("*******LoginSuccessTest Starts********");
-
-		//navigated to login page		
-		wait.until(d -> loginPage.isUrl());
-		logger.info(driver.getCurrentUrl());
-		logger.info("login page opened!");
-		
-		//type Input values
-		loginPage.setEmailInput(readConfig.getUserEmail());
-		logger.info("Entered email address");
-		loginPage.setPasswordInput(readConfig.getPassword());
-		logger.info("Enter password");
-				
-		//click submit button
-		loginPage.clickLoginButton();
-		logger.info("login submit button clicked!");
-		
-		//upon successful login, navigated back to home page
-		wait.until(d -> homePage.getWelcomeMessage().contains("John"));
-		logger.info(driver.getCurrentUrl());
-		
-		String userNameText = homePage.getWelcomeMessage();
-		
-		if(userNameText.contains(readConfig.getUserName())) {
-
-			logger.info("verify login test -- passed");
-		}else {
-			logger.info("verify login test -- failed");
-			captureScreenshot(driver, "loginSuccessTest");
-			throw new Exception("User Name not found, user login failed!");
-		}
-
-		logger.info("*******LoginSuccessTest Ends********");
-
-	}
-
 	
 	@Test
 	public void searchProductTest() throws IOException {
@@ -172,7 +108,7 @@ public class BuyProductTest extends BaseClass {
 	}
 	
 	
-	@Test(dependsOnMethods = "loginSuccessTest")
+	@Test(dependsOnMethods = "com.demoApp.testCases.LoginPageTest.loginSuccessTest")
 	public void checkBillingAddressTest() throws IOException, InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		CheckoutPage checkoutPage = new CheckoutPage(driver, wait);
@@ -192,7 +128,7 @@ public class BuyProductTest extends BaseClass {
 	}
 	
 
-	@Test(dependsOnMethods = "loginSuccessTest")
+	@Test(dependsOnMethods = "com.demoApp.testCases.LoginPageTest.loginSuccessTest")
 	public void checkOrderDetailsTest() throws IOException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		CheckoutPage checkoutPage = new CheckoutPage(driver, wait);
@@ -208,7 +144,7 @@ public class BuyProductTest extends BaseClass {
 		logger.info("*****CheckOrderDetailsTest Ends*****");
 	}
 	
-	@Test(dependsOnMethods = {"loginSuccessTest", "checkOrderDetailsTest"})
+	@Test(dependsOnMethods = {"com.demoApp.testCases.LoginPageTest.loginSuccessTest", "checkOrderDetailsTest"})
 	public void placeOrderTest() throws IOException, InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		CheckoutPage checkoutPage = new CheckoutPage(driver, wait);
@@ -229,7 +165,7 @@ public class BuyProductTest extends BaseClass {
 	}
 	
 	
-	@Test(dependsOnMethods = {"loginSuccessTest", "checkOrderDetailsTest","placeOrderTest"})
+	@Test(dependsOnMethods = {"com.demoApp.testCases.LoginPageTest.loginSuccessTest", "checkOrderDetailsTest","placeOrderTest"})
 	public void orderSuccessandReceiptTest() throws IOException, InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		OrderSuccessPage orderSuccessPage = new OrderSuccessPage(driver, wait);
@@ -282,7 +218,7 @@ public class BuyProductTest extends BaseClass {
 	}
 	
 	
-	@Test(dependsOnMethods = {"loginSuccessTest", "checkOrderDetailsTest","placeOrderTest","orderSuccessandReceiptTest"})
+	@Test(dependsOnMethods = {"com.demoApp.testCases.LoginPageTest.loginSuccessTest", "checkOrderDetailsTest","placeOrderTest","orderSuccessandReceiptTest"})
 	public void printOrderTest() throws IOException, InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		OrderDetailsReceiptPage orderDetailsReceiptPage = new OrderDetailsReceiptPage(driver, wait);
@@ -323,7 +259,7 @@ public class BuyProductTest extends BaseClass {
 	}
 	
 	
-	@Test(dependsOnMethods = {"loginSuccessTest", "checkOrderDetailsTest","placeOrderTest","orderSuccessandReceiptTest"})
+	@Test(dependsOnMethods = {"com.demoApp.testCases.LoginPageTest.loginSuccessTest", "checkOrderDetailsTest","placeOrderTest","orderSuccessandReceiptTest"})
 	public void logoutTest() throws IOException, InterruptedException, ParseException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 		
@@ -357,7 +293,6 @@ public class BuyProductTest extends BaseClass {
 
 		logger.info("*****LogoutTest Ends*****");
 		
-		logger.info("*************************VerifyProductSearchTest Ends**************************");
 		
 	}
 

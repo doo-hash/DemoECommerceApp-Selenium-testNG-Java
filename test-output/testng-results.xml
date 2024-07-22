@@ -1,141 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-17T13:20:58 IST" name="Suite" finished-at="2024-07-17T13:24:49 IST" duration-ms="231225">
+  <suite started-at="2024-07-21T16:02:04 IST" name="Suite" finished-at="2024-07-21T16:03:08 IST" duration-ms="64327">
     <groups>
     </groups>
-    <test started-at="2024-07-17T13:20:58 IST" name="CreateAccountTest" finished-at="2024-07-17T13:21:23 IST" duration-ms="25031">
-      <class name="com.demoApp.testCases.CreateAccountPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.CreateAccountPageTest@38102d01]" started-at="2024-07-17T13:20:58 IST" name="setup" finished-at="2024-07-17T13:21:15 IST" duration-ms="17096" status="PASS">
+    <test started-at="2024-07-21T16:02:04 IST" name="BuyProductTest" finished-at="2024-07-21T16:03:08 IST" duration-ms="64327">
+      <class name="com.demoApp.testCases.BuyProductTest">
+        <test-method signature="searchProductTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:23 IST" name="searchProductTest" finished-at="2024-07-21T16:02:26 IST" duration-ms="2274" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewAccountFailedTest()[pri:0, instance:com.demoApp.testCases.CreateAccountPageTest@38102d01]" started-at="2024-07-17T13:21:15 IST" name="createNewAccountFailedTest" finished-at="2024-07-17T13:21:21 IST" duration-ms="5976" status="PASS">
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="findSearchedEntryProductTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:26 IST" name="findSearchedEntryProductTest" finished-at="2024-07-21T16:02:27 IST" duration-ms="1204" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewAccountFailedTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.CreateAccountPageTest@38102d01]" started-at="2024-07-17T13:21:21 IST" name="tearDown" finished-at="2024-07-17T13:21:23 IST" duration-ms="1633" status="PASS">
+        </test-method> <!-- findSearchedEntryProductTest -->
+        <test-method signature="productAddToCartTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:27 IST" name="productAddToCartTest" finished-at="2024-07-21T16:02:30 IST" duration-ms="2828" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.demoApp.testCases.CreateAccountPageTest -->
-    </test> <!-- CreateAccountTest -->
-    <test started-at="2024-07-17T13:21:23 IST" name="LoginTest" finished-at="2024-07-17T13:22:04 IST" duration-ms="40309">
+        </test-method> <!-- productAddToCartTest -->
+        <test-method signature="proceedToCheckoutTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:30 IST" name="proceedToCheckoutTest" finished-at="2024-07-21T16:02:36 IST" duration-ms="6040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToCheckoutTest -->
+        <test-method signature="checkBillingAddressTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:36 IST" name="checkBillingAddressTest" finished-at="2024-07-21T16:02:38 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest" duration-ms="1881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBillingAddressTest -->
+        <test-method signature="checkOrderDetailsTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:38 IST" name="checkOrderDetailsTest" finished-at="2024-07-21T16:02:39 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrderDetailsTest -->
+        <test-method signature="placeOrderTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:39 IST" name="placeOrderTest" finished-at="2024-07-21T16:02:42 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest" duration-ms="3391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderTest -->
+        <test-method signature="orderSuccessandReceiptTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:42 IST" name="orderSuccessandReceiptTest" finished-at="2024-07-21T16:02:47 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="5429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSuccessandReceiptTest -->
+        <test-method signature="printOrderTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:47 IST" name="printOrderTest" finished-at="2024-07-21T16:02:50 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="2473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printOrderTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:50 IST" name="logoutTest" finished-at="2024-07-21T16:03:06 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="15809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- com.demoApp.testCases.BuyProductTest -->
       <class name="com.demoApp.testCases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.LoginPageTest@157853da]" started-at="2024-07-17T13:21:23 IST" name="setup" finished-at="2024-07-17T13:21:42 IST" duration-ms="18693" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.LoginPageTest@291caca8]" started-at="2024-07-21T16:02:04 IST" name="setup" finished-at="2024-07-21T16:02:16 IST" duration-ms="12086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickLoginInHomePageTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@157853da]" started-at="2024-07-17T13:21:42 IST" name="clickLoginInHomePageTest" finished-at="2024-07-17T13:21:46 IST" duration-ms="3971" status="PASS">
+        <test-method signature="clickLoginInHomePageTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@291caca8]" started-at="2024-07-21T16:02:16 IST" name="clickLoginInHomePageTest" finished-at="2024-07-21T16:02:18 IST" duration-ms="2021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLoginInHomePageTest -->
-        <test-method signature="loginSuccessTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@157853da]" started-at="2024-07-17T13:21:46 IST" name="loginSuccessTest" finished-at="2024-07-17T13:21:52 IST" duration-ms="6190" status="PASS">
+        <test-method signature="loginSuccessTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@291caca8]" started-at="2024-07-21T16:02:18 IST" name="loginSuccessTest" finished-at="2024-07-21T16:02:23 IST" duration-ms="5358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSuccessTest -->
-        <test-method signature="logoutSuccessTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@157853da]" started-at="2024-07-17T13:21:52 IST" name="logoutSuccessTest" finished-at="2024-07-17T13:22:02 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest" duration-ms="9597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutSuccessTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.LoginPageTest@157853da]" started-at="2024-07-17T13:22:02 IST" name="tearDown" finished-at="2024-07-17T13:22:04 IST" duration-ms="1785" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.LoginPageTest@291caca8]" started-at="2024-07-21T16:03:06 IST" name="tearDown" finished-at="2024-07-21T16:03:08 IST" duration-ms="2154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demoApp.testCases.LoginPageTest -->
-    </test> <!-- LoginTest -->
-    <test started-at="2024-07-17T13:22:04 IST" name="ProductSearchTest" finished-at="2024-07-17T13:22:45 IST" duration-ms="41418">
-      <class name="com.demoApp.testCases.ProductSearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.ProductSearchTest@2cdd0d4b]" started-at="2024-07-17T13:22:04 IST" name="setup" finished-at="2024-07-17T13:22:20 IST" duration-ms="16536" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickLoginLinkTest()[pri:1, instance:com.demoApp.testCases.ProductSearchTest@2cdd0d4b]" started-at="2024-07-17T13:22:20 IST" name="clickLoginLinkTest" finished-at="2024-07-17T13:22:24 IST" duration-ms="4081" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickLoginLinkTest -->
-        <test-method signature="loginSuccessTest()[pri:2, instance:com.demoApp.testCases.ProductSearchTest@2cdd0d4b]" started-at="2024-07-17T13:22:24 IST" name="loginSuccessTest" finished-at="2024-07-17T13:22:29 IST" duration-ms="4602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginSuccessTest -->
-        <test-method signature="searchProductTest()[pri:3, instance:com.demoApp.testCases.ProductSearchTest@2cdd0d4b]" started-at="2024-07-17T13:22:29 IST" name="searchProductTest" finished-at="2024-07-17T13:22:33 IST" duration-ms="3572" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductTest -->
-        <test-method signature="findSearchedEntryProductTest()[pri:4, instance:com.demoApp.testCases.ProductSearchTest@2cdd0d4b]" started-at="2024-07-17T13:22:33 IST" name="findSearchedEntryProductTest" finished-at="2024-07-17T13:22:34 IST" duration-ms="1181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findSearchedEntryProductTest -->
-        <test-method signature="homePageLogoutTest()[pri:6, instance:com.demoApp.testCases.ProductSearchTest@2cdd0d4b]" started-at="2024-07-17T13:22:34 IST" name="homePageLogoutTest" finished-at="2024-07-17T13:22:43 IST" duration-ms="9097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageLogoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.ProductSearchTest@2cdd0d4b]" started-at="2024-07-17T13:22:43 IST" name="tearDown" finished-at="2024-07-17T13:22:45 IST" duration-ms="2306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.demoApp.testCases.ProductSearchTest -->
-    </test> <!-- ProductSearchTest -->
-    <test started-at="2024-07-17T13:22:45 IST" name="BuyProductTest" finished-at="2024-07-17T13:24:49 IST" duration-ms="123278">
-      <class name="com.demoApp.testCases.BuyProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:22:45 IST" name="setup" finished-at="2024-07-17T13:23:23 IST" duration-ms="37460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickLoginLinkTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:23:23 IST" name="clickLoginLinkTest" finished-at="2024-07-17T13:23:46 IST" duration-ms="23142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickLoginLinkTest -->
-        <test-method signature="loginSuccessTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:23:46 IST" name="loginSuccessTest" finished-at="2024-07-17T13:24:12 IST" duration-ms="25417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginSuccessTest -->
-        <test-method signature="searchProductTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:12 IST" name="searchProductTest" finished-at="2024-07-17T13:24:15 IST" duration-ms="3215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductTest -->
-        <test-method signature="findSearchedEntryProductTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:15 IST" name="findSearchedEntryProductTest" finished-at="2024-07-17T13:24:16 IST" duration-ms="914" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findSearchedEntryProductTest -->
-        <test-method signature="productAddToCartTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:16 IST" name="productAddToCartTest" finished-at="2024-07-17T13:24:18 IST" duration-ms="2612" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productAddToCartTest -->
-        <test-method signature="proceedToCheckoutTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:18 IST" name="proceedToCheckoutTest" finished-at="2024-07-17T13:24:23 IST" duration-ms="4557" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proceedToCheckoutTest -->
-        <test-method signature="checkBillingAddressTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:23 IST" name="checkBillingAddressTest" finished-at="2024-07-17T13:24:25 IST" depends-on-methods="com.demoApp.testCases.BuyProductTest.loginSuccessTest" duration-ms="2356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkBillingAddressTest -->
-        <test-method signature="checkOrderDetailsTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:25 IST" name="checkOrderDetailsTest" finished-at="2024-07-17T13:24:26 IST" depends-on-methods="com.demoApp.testCases.BuyProductTest.loginSuccessTest" duration-ms="945" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkOrderDetailsTest -->
-        <test-method signature="placeOrderTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:26 IST" name="placeOrderTest" finished-at="2024-07-17T13:24:30 IST" depends-on-methods="com.demoApp.testCases.BuyProductTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest" duration-ms="3885" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- placeOrderTest -->
-        <test-method signature="orderSuccessandReceiptTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:30 IST" name="orderSuccessandReceiptTest" finished-at="2024-07-17T13:24:36 IST" depends-on-methods="com.demoApp.testCases.BuyProductTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="5810" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderSuccessandReceiptTest -->
-        <test-method signature="printOrderTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:36 IST" name="printOrderTest" finished-at="2024-07-17T13:24:38 IST" depends-on-methods="com.demoApp.testCases.BuyProductTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="2568" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printOrderTest -->
-        <test-method signature="logoutTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:38 IST" name="logoutTest" finished-at="2024-07-17T13:24:46 IST" depends-on-methods="com.demoApp.testCases.BuyProductTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="7922" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.BuyProductTest@2beee7ff]" started-at="2024-07-17T13:24:46 IST" name="tearDown" finished-at="2024-07-17T13:24:49 IST" duration-ms="2384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.demoApp.testCases.BuyProductTest -->
     </test> <!-- BuyProductTest -->
   </suite> <!-- Suite -->
 </testng-results>

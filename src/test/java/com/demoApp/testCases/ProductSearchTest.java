@@ -7,82 +7,15 @@ import java.time.Duration;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.demoApp.pageObject.HomePage;
-import com.demoApp.pageObject.LoginPage;
-import com.demoApp.pageObject.LogoutSuccessPage;
 import com.demoApp.pageObject.ProductPage;
 import com.demoApp.pageObject.SearchProductPage;
-import com.demoApp.utilities.ReadConfig;
 
 public class ProductSearchTest extends BaseClass {
 	
-	
 	@Test(priority = 1)
-	public void clickLoginLinkTest() throws IOException {
-		logger.info("*************************VerifyProductSearchTest Starts**************************");
-		logger.info("Verfiy product search test execution started...");
-
-		logger.info("*****ClickLoginLinkTest Starts*****");
-		logger.info(driver.getCurrentUrl());
-		logger.info("Home page opened!");
-
-		HomePage homePage = new HomePage(driver);
-
-		homePage.clickLoginElement();
-		logger.info("login link clicked!");
-		
-		logger.info("*****ClickLoginLinkTest Ends*****");
-	}
-	
-	
-	@Test(priority = 2)
-	public void loginSuccessTest() throws Exception {
-		ReadConfig readConfig = new ReadConfig();
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
-
-		HomePage homePage = new HomePage(driver);
-		LoginPage loginPage = new LoginPage(driver);
-		
-		logger.info("*******LoginSuccessTest Starts********");
-
-		//navigated to login page		
-		wait.until(d -> loginPage.isUrl());
-		logger.info(driver.getCurrentUrl());
-		logger.info("login page opened!");
-		
-		//type Input values
-		loginPage.setEmailInput(readConfig.getUserEmail());
-		logger.info("Entered email address");
-		loginPage.setPasswordInput(readConfig.getPassword());
-		logger.info("Enter password");
-				
-		//click submit button
-		loginPage.clickLoginButton();
-		logger.info("login submit button clicked!");
-		
-		//upon successful login, navigated back to home page
-		wait.until(d -> homePage.getWelcomeMessage().contains("John"));
-		logger.info(driver.getCurrentUrl());
-		
-		String userNameText = homePage.getWelcomeMessage();
-		
-		if(userNameText.contains(readConfig.getUserName())) {
-
-			logger.info("verify login test -- passed");
-		}else {
-			logger.info("verify login test -- failed");
-			captureScreenshot(driver, "loginSuccessTest");
-			throw new Exception("User Name not found, user login failed!");
-		}
-
-		logger.info("*******LoginSuccessTest Ends********");
-
-	}
-	
-	@Test(priority = 3)
 	public void searchProductTest() throws IOException {
 		HomePage homePage = new HomePage(driver);
 		
@@ -98,7 +31,7 @@ public class ProductSearchTest extends BaseClass {
 	}
 
 	
-	@Test(priority = 4)
+	@Test(priority = 2)
 	public void findSearchedEntryProductTest() throws IOException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		SearchProductPage searchProductPage = new SearchProductPage(driver, wait);
@@ -123,7 +56,7 @@ public class ProductSearchTest extends BaseClass {
 	}
 	
 	
-	@Test(priority = 5)
+	@Test(priority = 3)
 	public void goToProductPageTest() throws IOException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 
@@ -146,39 +79,4 @@ public class ProductSearchTest extends BaseClass {
 		logger.info("*****FindSearchedEntryProductTest Ends*****");
 	}
 	
-	@Test(priority = 6)
-	public void homePageLogoutTest() throws IOException {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
-		
-		HomePage homePage = new HomePage(driver);
-
-		logger.info("*****HomePageLogoutTest Starts*****");
-		
-		//logout
-		homePage.clickAccountDropdown();
-		wait.until(d -> homePage.isDropdownVisible());
-		logger.info("Account dropdown is open now!");
-		
-		//click logout link
-		homePage.clickLogoutLink();
-		logger.info("logged out!");
-
-		//redirected to logout success page
-		LogoutSuccessPage logoutSuccessPage = new LogoutSuccessPage(driver);
-		logger.info(driver.getCurrentUrl());
-		
-		assertTrue(logoutSuccessPage.isSignoutMessagePresent());			
-
-		//redirect to home page
-		wait.until(d -> homePage.isUrl());
-		logger.info(driver.getCurrentUrl());
-		Assert.assertTrue(true);
-
-		logger.info("*****HomePageLogoutTest Ends*****");
-
-		logger.info("*************************VerifyProductSearchTest Ends**************************");
-		
-	}
-
-
 }

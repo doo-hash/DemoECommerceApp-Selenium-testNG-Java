@@ -13,35 +13,52 @@
 			</class>
 		</classes>
 	</test>
-		<test name="LoginTest">
+	<test name="LoginTest">
 		<classes>
 			<class name="com.demoApp.testCases.LoginPageTest" />
 		</classes>
 	</test>
-	<test name="DataDrivenTest" enabled="false">
+	<test name="DataDrivenTest">
 		<classes>
 			<class name="com.demoApp.testCases.LoginPageDataDrivenTest" />
 		</classes>
 	</test>
 	<test name="ProductSearchTest">
 		<classes>
+			<class name="com.demoApp.testCases.LoginPageTest">
+				<methods>
+					<include name="clickLoginInHomePageTest"></include>
+					<include name="loginSuccessTest"></include>
+				</methods>
+			</class>
+
 			<class name="com.demoApp.testCases.ProductSearchTest">
 				<methods>
-				<exclude name="goToProductPageTest"></exclude>
+					<exclude name="goToProductPageTest"></exclude>
+				</methods>
+			</class>
+			<class name="com.demoApp.testCases.LoginPageTest">
+				<methods>
+					<include name="logoutSuccessTest"></include>
 				</methods>
 			</class>
 		</classes>
 	</test>
-		<test name="BuyProductTest">
+	<test name="BuyProductTest">
 		<classes>
+			<class name="com.demoApp.testCases.LoginPageTest">
+				<methods>
+					<include name="clickLoginInHomePageTest"></include>
+					<include name="loginSuccessTest"></include>
+				</methods>
+			</class>
+
 			<class name="com.demoApp.testCases.BuyProductTest">
 				<methods>
-					<include name="clickLoginLinkTest"></include>
-					<include name="loginSuccessTest"></include>
 					<include name="searchProductTest"></include>
-					<include name="findSearchedEntryProductTest"></include>					
+					<include name="findSearchedEntryProductTest"></include>
 					<include name="productAddToCartTest"></include>
-					<include name="proceedToCheckoutTest"></include>					
+					<include name="proceedToCheckoutTest"></include>
 					<include name="checkBillingAddressTest"></include>
 					<include name="checkOrderDetailsTest"></include>
 					<include name="placeOrderTest"></include>
