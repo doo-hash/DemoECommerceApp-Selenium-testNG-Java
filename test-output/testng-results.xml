@@ -1,67 +1,1100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="26" passed="10" failed="11" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-21T16:02:04 IST" name="Suite" finished-at="2024-07-21T16:03:08 IST" duration-ms="64327">
+  <suite started-at="2024-08-06T17:55:33 IST" name="Suite" finished-at="2024-08-06T17:58:28 IST" duration-ms="174669">
     <groups>
     </groups>
-    <test started-at="2024-07-21T16:02:04 IST" name="BuyProductTest" finished-at="2024-07-21T16:03:08 IST" duration-ms="64327">
-      <class name="com.demoApp.testCases.BuyProductTest">
-        <test-method signature="searchProductTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:23 IST" name="searchProductTest" finished-at="2024-07-21T16:02:26 IST" duration-ms="2274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductTest -->
-        <test-method signature="findSearchedEntryProductTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:26 IST" name="findSearchedEntryProductTest" finished-at="2024-07-21T16:02:27 IST" duration-ms="1204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findSearchedEntryProductTest -->
-        <test-method signature="productAddToCartTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:27 IST" name="productAddToCartTest" finished-at="2024-07-21T16:02:30 IST" duration-ms="2828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productAddToCartTest -->
-        <test-method signature="proceedToCheckoutTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:30 IST" name="proceedToCheckoutTest" finished-at="2024-07-21T16:02:36 IST" duration-ms="6040" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proceedToCheckoutTest -->
-        <test-method signature="checkBillingAddressTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:36 IST" name="checkBillingAddressTest" finished-at="2024-07-21T16:02:38 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest" duration-ms="1881" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkBillingAddressTest -->
-        <test-method signature="checkOrderDetailsTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:38 IST" name="checkOrderDetailsTest" finished-at="2024-07-21T16:02:39 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest" duration-ms="1007" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkOrderDetailsTest -->
-        <test-method signature="placeOrderTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:39 IST" name="placeOrderTest" finished-at="2024-07-21T16:02:42 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest" duration-ms="3391" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- placeOrderTest -->
-        <test-method signature="orderSuccessandReceiptTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:42 IST" name="orderSuccessandReceiptTest" finished-at="2024-07-21T16:02:47 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="5429" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderSuccessandReceiptTest -->
-        <test-method signature="printOrderTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:47 IST" name="printOrderTest" finished-at="2024-07-21T16:02:50 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="2473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printOrderTest -->
-        <test-method signature="logoutTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@7ee8290b]" started-at="2024-07-21T16:02:50 IST" name="logoutTest" finished-at="2024-07-21T16:03:06 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="15809" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutTest -->
-      </class> <!-- com.demoApp.testCases.BuyProductTest -->
+    <test started-at="2024-08-06T17:55:33 IST" name="LoginTest" finished-at="2024-08-06T17:56:20 IST" duration-ms="47137">
       <class name="com.demoApp.testCases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.LoginPageTest@291caca8]" started-at="2024-07-21T16:02:04 IST" name="setup" finished-at="2024-07-21T16:02:16 IST" duration-ms="12086" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.LoginPageTest@28975c28]" started-at="2024-08-06T17:55:33 IST" name="setup" finished-at="2024-08-06T17:56:07 IST" duration-ms="33788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickLoginInHomePageTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@291caca8]" started-at="2024-07-21T16:02:16 IST" name="clickLoginInHomePageTest" finished-at="2024-07-21T16:02:18 IST" duration-ms="2021" status="PASS">
+        <test-method signature="clickLoginInHomePageTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@28975c28]" started-at="2024-08-06T17:56:07 IST" name="clickLoginInHomePageTest" finished-at="2024-08-06T17:56:10 IST" duration-ms="2826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLoginInHomePageTest -->
-        <test-method signature="loginSuccessTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@291caca8]" started-at="2024-07-21T16:02:18 IST" name="loginSuccessTest" finished-at="2024-07-21T16:02:23 IST" duration-ms="5358" status="PASS">
+        <test-method signature="loginSuccessTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@28975c28]" started-at="2024-08-06T17:56:10 IST" name="loginSuccessTest" finished-at="2024-08-06T17:56:20 IST" duration-ms="10019" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for com.demoApp.testCases.LoginPageTest$$Lambda/0x00000225813b3a40@49c45e1f (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54281}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad1903b636be750256916f9cf6612237]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.demoApp.testCases.LoginPageTest$$Lambda/0x00000225813b3a40@49c45e1f (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54281}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad1903b636be750256916f9cf6612237
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.demoApp.testCases.LoginPageTest.loginSuccessTest(LoginPageTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSuccessTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.LoginPageTest@291caca8]" started-at="2024-07-21T16:03:06 IST" name="tearDown" finished-at="2024-07-21T16:03:08 IST" duration-ms="2154" status="PASS">
+        <test-method signature="logoutSuccessTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@28975c28]" started-at="2024-08-06T17:56:20 IST" name="logoutSuccessTest" finished-at="2024-08-06T17:56:20 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.demoApp.testCases.LoginPageTest.logoutSuccessTest() on instance com.demoApp.testCases.LoginPageTest@28975c28 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@28975c28]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.demoApp.testCases.LoginPageTest.logoutSuccessTest() on instance com.demoApp.testCases.LoginPageTest@28975c28 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@28975c28]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.LoginPageTest@28975c28]" started-at="2024-08-06T17:56:20 IST" name="tearDown" finished-at="2024-08-06T17:56:20 IST" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[java.io.IOException: Output closed
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromiumDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromiumDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:301)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:320)
+at org.openqa.selenium.devtools.Connection.close(Connection.java:226)
+at org.openqa.selenium.devtools.DevTools.close(DevTools.java:61)
+at java.base/java.util.Optional.ifPresent(Optional.java:178)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+at com.demoApp.testCases.BaseClass.tearDown(BaseClass.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.afterRun(TestRunner.java:818)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.io.IOException: Output closed
+at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:280)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:291)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoApp.testCases.LoginPageTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2024-08-06T17:55:33 IST" name="CreateAccountTest" finished-at="2024-08-06T17:56:21 IST" duration-ms="47894">
+      <class name="com.demoApp.testCases.CreateAccountPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.CreateAccountPageTest@e4487af]" started-at="2024-08-06T17:55:33 IST" name="setup" finished-at="2024-08-06T17:56:06 IST" duration-ms="32718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewAccountFailedTest()[pri:0, instance:com.demoApp.testCases.CreateAccountPageTest@e4487af]" started-at="2024-08-06T17:56:06 IST" name="createNewAccountFailedTest" finished-at="2024-08-06T17:56:20 IST" duration-ms="13797" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#firstname"}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ad1903b636be750256916f9cf6612237, findElement {value=firstname, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54281}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad1903b636be750256916f9cf6612237]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#firstname"}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ad1903b636be750256916f9cf6612237, findElement {value=firstname, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54281}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad1903b636be750256916f9cf6612237
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+at com.demoApp.pageObject.CreateAccountPage.setFirstNameInput(CreateAccountPage.java:45)
+at com.demoApp.testCases.CreateAccountPageTest.createNewAccountFailedTest(CreateAccountPageTest.java:125)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccountFailedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.CreateAccountPageTest@e4487af]" started-at="2024-08-06T17:56:20 IST" name="tearDown" finished-at="2024-08-06T17:56:21 IST" duration-ms="788" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.openqa.selenium.remote.Response.getStatus()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.openqa.selenium.remote.Response.getStatus()" is null
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+at com.demoApp.testCases.BaseClass.tearDown(BaseClass.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.afterRun(TestRunner.java:818)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoApp.testCases.CreateAccountPageTest -->
+    </test> <!-- CreateAccountTest -->
+    <test started-at="2024-08-06T17:56:21 IST" name="ProductSearchTest" finished-at="2024-08-06T17:57:28 IST" duration-ms="67206">
+      <class name="com.demoApp.testCases.ProductSearchTest">
+        <test-method signature="searchProductTest()[pri:1, instance:com.demoApp.testCases.ProductSearchTest@d6e7bab]" started-at="2024-08-06T17:57:00 IST" name="searchProductTest" finished-at="2024-08-06T17:57:06 IST" duration-ms="5781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="findSearchedEntryProductTest()[pri:2, instance:com.demoApp.testCases.ProductSearchTest@d6e7bab]" started-at="2024-08-06T17:57:06 IST" name="findSearchedEntryProductTest" finished-at="2024-08-06T17:57:16 IST" duration-ms="10672" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for com.demoApp.testCases.ProductSearchTest$$Lambda/0x0000022581511260@3adefd61 (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.demoApp.testCases.ProductSearchTest$$Lambda/0x0000022581511260@3adefd61 (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.demoApp.testCases.ProductSearchTest.findSearchedEntryProductTest(ProductSearchTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findSearchedEntryProductTest -->
+      </class> <!-- com.demoApp.testCases.ProductSearchTest -->
+      <class name="com.demoApp.testCases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.LoginPageTest@3315d2d7]" started-at="2024-08-06T17:56:21 IST" name="setup" finished-at="2024-08-06T17:56:47 IST" duration-ms="26191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickLoginInHomePageTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@3315d2d7]" started-at="2024-08-06T17:56:47 IST" name="clickLoginInHomePageTest" finished-at="2024-08-06T17:56:50 IST" duration-ms="2804" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, clickElement {id=f.0394593618796E07F538A2D2BEC08E1E.d.B49FDC1D0585A31592F39CA6D417B335.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6ce3ae9d551510263d823f56f040342f)] -> link text: Sign In]
+Session ID: 6ce3ae9d551510263d823f56f040342f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, clickElement {id=f.0394593618796E07F538A2D2BEC08E1E.d.B49FDC1D0585A31592F39CA6D417B335.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6ce3ae9d551510263d823f56f040342f)] -> link text: Sign In]
+Session ID: 6ce3ae9d551510263d823f56f040342f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at com.demoApp.pageObject.HomePage.clickLoginElement(HomePage.java:58)
+at com.demoApp.testCases.LoginPageTest.clickLoginInHomePageTest(LoginPageTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoginInHomePageTest -->
+        <test-method signature="loginSuccessTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@3315d2d7]" started-at="2024-08-06T17:56:50 IST" name="loginSuccessTest" finished-at="2024-08-06T17:57:00 IST" duration-ms="9784" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for com.demoApp.testCases.LoginPageTest$$Lambda/0x0000022581127800@7a804a1 (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.demoApp.testCases.LoginPageTest$$Lambda/0x0000022581127800@7a804a1 (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.demoApp.testCases.LoginPageTest.loginSuccessTest(LoginPageTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessTest -->
+        <test-method signature="logoutSuccessTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@3315d2d7]" started-at="2024-08-06T17:57:00 IST" name="logoutSuccessTest" finished-at="2024-08-06T17:57:00 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.demoApp.testCases.LoginPageTest.logoutSuccessTest() on instance com.demoApp.testCases.LoginPageTest@3315d2d7 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@3315d2d7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.demoApp.testCases.LoginPageTest.logoutSuccessTest() on instance com.demoApp.testCases.LoginPageTest@3315d2d7 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@3315d2d7]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.LoginPageTest@3315d2d7]" started-at="2024-08-06T17:57:16 IST" name="tearDown" finished-at="2024-08-06T17:57:28 IST" duration-ms="11908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoApp.testCases.LoginPageTest -->
+    </test> <!-- ProductSearchTest -->
+    <test started-at="2024-08-06T17:56:21 IST" name="DataDrivenTest" finished-at="2024-08-06T17:57:28 IST" duration-ms="67519">
+      <class name="com.demoApp.testCases.LoginPageDataDrivenTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.LoginPageDataDrivenTest@e1de817]" started-at="2024-08-06T17:56:21 IST" name="setup" finished-at="2024-08-06T17:56:44 IST" duration-ms="23038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoApp.testCases.LoginPageDataDrivenTest@e1de817]" started-at="2024-08-06T17:56:45 IST" name="verifyLoginTest" data-provider="LoginDataProvider" finished-at="2024-08-06T17:57:06 IST" duration-ms="20331" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnDrew@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John Drew]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.demoApp.testCases.LoginPageDataDrivenTest.verifyLoginTest(LoginPageDataDrivenTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoApp.testCases.LoginPageDataDrivenTest@e1de817]" started-at="2024-08-06T17:57:06 IST" name="verifyLoginTest" data-provider="LoginDataProvider" finished-at="2024-08-06T17:57:16 IST" duration-ms="10617" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnDrew@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John Drew]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.demoApp.testCases.LoginPageDataDrivenTest.verifyLoginTest(LoginPageDataDrivenTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoApp.testCases.LoginPageDataDrivenTest@e1de817]" started-at="2024-08-06T17:57:16 IST" name="verifyLoginTest" data-provider="LoginDataProvider" finished-at="2024-08-06T17:57:24 IST" duration-ms="7678" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, executeScript [args, script]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, executeScript [args, script]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463)
+at com.demoApp.utilities.HighlightElementClass.highlightElement(HighlightElementClass.java:15)
+at com.demoApp.pageObject.HomePage.clickLoginElement(HomePage.java:57)
+at com.demoApp.testCases.LoginPageDataDrivenTest.verifyLoginTest(LoginPageDataDrivenTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@3762b3be rejected from java.util.concurrent.ThreadPoolExecutor@3e43602e[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1080]
+at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.ensureExecutedAsync(HttpClientImpl.java:184)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:176)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
+at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.asyncReceive(Http1AsyncReceiver.java:468)
+at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:589)
+at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:546)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:865)
+at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1476)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1421)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1421)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoApp.testCases.LoginPageDataDrivenTest@e1de817]" started-at="2024-08-06T17:57:24 IST" name="verifyLoginTest" data-provider="LoginDataProvider" finished-at="2024-08-06T17:57:24 IST" duration-ms="16" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johDrew@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, getCurrentUrl []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, getCurrentUrl []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:312)
+at com.demoApp.testCases.LoginPageDataDrivenTest.verifyLoginTest(LoginPageDataDrivenTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoApp.testCases.LoginPageDataDrivenTest@e1de817]" started-at="2024-08-06T17:57:24 IST" name="verifyLoginTest" data-provider="LoginDataProvider" finished-at="2024-08-06T17:57:24 IST" duration-ms="16" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnDrew@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, getCurrentUrl []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, getCurrentUrl []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:312)
+at com.demoApp.testCases.LoginPageDataDrivenTest.verifyLoginTest(LoginPageDataDrivenTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.LoginPageDataDrivenTest@e1de817]" started-at="2024-08-06T17:57:24 IST" name="tearDown" finished-at="2024-08-06T17:57:28 IST" duration-ms="4214" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to stop.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+at com.demoApp.testCases.BaseClass.tearDown(BaseClass.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.afterRun(TestRunner.java:818)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+... 22 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoApp.testCases.LoginPageDataDrivenTest -->
+    </test> <!-- DataDrivenTest -->
+    <test started-at="2024-08-06T17:57:28 IST" name="BuyProductTest" finished-at="2024-08-06T17:58:28 IST" duration-ms="59177">
+      <class name="com.demoApp.testCases.BuyProductTest">
+        <test-method signature="searchProductTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@770d3326]" started-at="2024-08-06T17:58:02 IST" name="searchProductTest" finished-at="2024-08-06T17:58:05 IST" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="findSearchedEntryProductTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@770d3326]" started-at="2024-08-06T17:58:05 IST" name="findSearchedEntryProductTest" finished-at="2024-08-06T17:58:08 IST" duration-ms="3986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findSearchedEntryProductTest -->
+        <test-method signature="productAddToCartTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@770d3326]" started-at="2024-08-06T17:58:08 IST" name="productAddToCartTest" finished-at="2024-08-06T17:58:12 IST" duration-ms="3159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAddToCartTest -->
+        <test-method signature="proceedToCheckoutTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@770d3326]" started-at="2024-08-06T17:58:12 IST" name="proceedToCheckoutTest" finished-at="2024-08-06T17:58:18 IST" duration-ms="6516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToCheckoutTest -->
+        <test-method signature="checkBillingAddressTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@770d3326]" started-at="2024-08-06T17:58:18 IST" name="checkBillingAddressTest" finished-at="2024-08-06T17:58:20 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBillingAddressTest -->
+        <test-method signature="checkOrderDetailsTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@770d3326]" started-at="2024-08-06T17:58:20 IST" name="checkOrderDetailsTest" finished-at="2024-08-06T17:58:21 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrderDetailsTest -->
+        <test-method signature="placeOrderTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@770d3326]" started-at="2024-08-06T17:58:21 IST" name="placeOrderTest" finished-at="2024-08-06T17:58:25 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest" duration-ms="4522" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="action primary checkout" type="submit" data-bind="
+                        click: placeOrder,
+                        attr: {title: $t('Place Order')},
+                        css: {disabled: !isPlaceOrderActionAllowed()},
+                        enable: (getCode() == isChecked())
+                        " title="Place Order" style="border: 2px solid yellow;">...</button> is not clickable at point (863, 350). Other element would receive the click: <div class="billing-address-details">...</div>
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6703650dbd41e83ef86babba09dacbd2, clickElement {id=f.56537072A35E8B2CF9565FEDF5D8DE22.d.4C2BE84342AADC0E37B6933E17B4C28A.e.318}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54461}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54461/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6703650dbd41e83ef86babba09dacbd2)] -> xpath: //button[contains(@class,'checkout')]]
+Session ID: 6703650dbd41e83ef86babba09dacbd2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="action primary checkout" type="submit" data-bind="
+                        click: placeOrder,
+                        attr: {title: $t('Place Order')},
+                        css: {disabled: !isPlaceOrderActionAllowed()},
+                        enable: (getCode() == isChecked())
+                        " title="Place Order" style="border: 2px solid yellow;">...</button> is not clickable at point (863, 350). Other element would receive the click: <div class="billing-address-details">...</div>
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6703650dbd41e83ef86babba09dacbd2, clickElement {id=f.56537072A35E8B2CF9565FEDF5D8DE22.d.4C2BE84342AADC0E37B6933E17B4C28A.e.318}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54461}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54461/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6703650dbd41e83ef86babba09dacbd2)] -> xpath: //button[contains(@class,'checkout')]]
+Session ID: 6703650dbd41e83ef86babba09dacbd2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at com.demoApp.pageObject.CheckoutPage.clickPlaceOrderButton(CheckoutPage.java:122)
+at com.demoApp.testCases.BuyProductTest.placeOrderTest(BuyProductTest.java:161)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderTest -->
+        <test-method signature="orderSuccessandReceiptTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@770d3326]" started-at="2024-08-06T17:58:26 IST" name="orderSuccessandReceiptTest" finished-at="2024-08-06T17:58:26 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest() on instance com.demoApp.testCases.BuyProductTest@770d3326 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@2abf4075
+com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.placeOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest() on instance com.demoApp.testCases.BuyProductTest@770d3326 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@2abf4075
+com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.placeOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSuccessandReceiptTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@770d3326]" started-at="2024-08-06T17:58:26 IST" name="logoutTest" finished-at="2024-08-06T17:58:26 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.demoApp.testCases.BuyProductTest.logoutTest() on instance com.demoApp.testCases.BuyProductTest@770d3326 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@2abf4075
+com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.placeOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.demoApp.testCases.BuyProductTest.logoutTest() on instance com.demoApp.testCases.BuyProductTest@770d3326 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@2abf4075
+com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.placeOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method signature="printOrderTest()[pri:0, instance:com.demoApp.testCases.BuyProductTest@770d3326]" started-at="2024-08-06T17:58:26 IST" name="printOrderTest" finished-at="2024-08-06T17:58:26 IST" depends-on-methods="com.demoApp.testCases.LoginPageTest.loginSuccessTest, com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest, com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest, com.demoApp.testCases.BuyProductTest.placeOrderTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.demoApp.testCases.BuyProductTest.printOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@2abf4075
+com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.placeOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.demoApp.testCases.BuyProductTest.printOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@2abf4075
+com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.placeOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printOrderTest -->
+      </class> <!-- com.demoApp.testCases.BuyProductTest -->
+      <class name="com.demoApp.testCases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoApp.testCases.LoginPageTest@2abf4075]" started-at="2024-08-06T17:57:28 IST" name="setup" finished-at="2024-08-06T17:57:53 IST" duration-ms="24848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickLoginInHomePageTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@2abf4075]" started-at="2024-08-06T17:57:53 IST" name="clickLoginInHomePageTest" finished-at="2024-08-06T17:57:57 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoginInHomePageTest -->
+        <test-method signature="loginSuccessTest()[pri:0, instance:com.demoApp.testCases.LoginPageTest@2abf4075]" started-at="2024-08-06T17:57:57 IST" name="loginSuccessTest" finished-at="2024-08-06T17:58:02 IST" duration-ms="5004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoApp.testCases.LoginPageTest@2abf4075]" started-at="2024-08-06T17:58:26 IST" name="tearDown" finished-at="2024-08-06T17:58:28 IST" duration-ms="2005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

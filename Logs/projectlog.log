@@ -1232,3 +1232,248 @@
 [INFO ] 2024-07-21 16:13:39.092 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/logoutSuccess/
 [INFO ] 2024-07-21 16:13:45.448 [main] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
 [INFO ] 2024-07-21 16:13:45.448 [main] DemoECommerceApp-Selenium-testNG-Java - *****LogoutTest Ends*****
+[INFO ] 2024-08-06 17:46:53.636 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - ****************Verify Create Account Test with created user credentials Starts****************
+[INFO ] 2024-08-06 17:47:32.254 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-08-06 17:47:36.598 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:47:36.626 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:47:36.626 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-08-06 17:47:39.291 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-08-06 17:47:39.292 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-08-06 17:47:39.545 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-08-06 17:47:39.572 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 17:47:39.572 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-08-06 17:47:40.904 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-08-06 17:47:43.406 [TestNG-tests-3] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:47:43.441 [TestNG-tests-3] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:47:43.469 [TestNG-tests-3] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:47:43.479 [TestNG-tests-3] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:47:43.504 [TestNG-tests-3] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:49:08.711 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-08-06 17:49:13.537 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-08-06 17:49:14.818 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:49:14.818 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-08-06 17:49:14.833 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:49:14.849 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-08-06 17:49:18.879 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-08-06 17:49:18.879 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-08-06 17:49:18.895 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-08-06 17:49:18.925 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-08-06 17:49:18.973 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 17:49:18.974 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-08-06 17:49:18.992 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 17:49:18.992 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-08-06 17:49:22.810 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-08-06 17:49:23.060 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-08-06 17:49:23.168 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-08-06 17:49:23.206 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-08-06 17:49:23.364 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-08-06 17:49:23.405 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-08-06 17:49:31.702 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Starts*****
+[INFO ] 2024-08-06 17:49:31.717 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Starts*****
+[INFO ] 2024-08-06 17:49:33.739 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Entered product name in search input and clicked enter!
+[INFO ] 2024-08-06 17:49:33.739 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Ends*****
+[INFO ] 2024-08-06 17:49:33.864 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Starts*****
+[INFO ] 2024-08-06 17:49:33.880 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Starts*****
+[INFO ] 2024-08-06 17:49:33.911 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - Redirected to searched product page!
+[INFO ] 2024-08-06 17:49:33.927 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Redirected to searched product page!
+[INFO ] 2024-08-06 17:49:39.942 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - searched product found!
+[INFO ] 2024-08-06 17:49:39.942 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Ends*****
+[INFO ] 2024-08-06 17:49:39.958 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - searched product found!
+[INFO ] 2024-08-06 17:49:39.958 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Ends*****
+[INFO ] 2024-08-06 17:49:39.958 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *****ProductAddToCartTest Starts*****
+[INFO ] 2024-08-06 17:49:41.288 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *****ProceedToCheckoutTest Starts*****
+[INFO ] 2024-08-06 17:49:41.373 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *****CheckBillingAddressTest Starts*****
+[INFO ] 2024-08-06 17:49:41.373 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *****CheckOrderDetailsTest Starts*****
+[INFO ] 2024-08-06 17:52:19.137 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - ****************Verify Create Account Test with created user credentials Starts****************
+[INFO ] 2024-08-06 17:52:19.152 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:52:19.231 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-08-06 17:52:19.246 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:52:19.246 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-08-06 17:52:21.013 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - URL opened!
+[INFO ] 2024-08-06 17:52:22.741 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-08-06 17:52:22.741 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-08-06 17:52:22.756 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2NyZWF0ZS8%2C/
+[INFO ] 2024-08-06 17:52:22.756 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - create account page opened!
+[INFO ] 2024-08-06 17:52:22.788 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-08-06 17:53:06.537 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-08-06 17:53:07.962 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:53:07.962 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-08-06 17:53:09.851 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-08-06 17:53:09.851 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-08-06 17:53:09.867 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-08-06 17:53:09.882 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 17:53:09.882 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-08-06 17:53:10.231 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-08-06 17:53:10.341 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-08-06 17:53:13.407 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-08-06 17:53:14.701 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Starts*****
+[INFO ] 2024-08-06 17:53:17.263 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Entered product name in search input and clicked enter!
+[INFO ] 2024-08-06 17:53:17.263 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Ends*****
+[INFO ] 2024-08-06 17:53:17.576 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Starts*****
+[INFO ] 2024-08-06 17:53:17.607 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Redirected to searched product page!
+[INFO ] 2024-08-06 17:53:20.753 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:53:23.232 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/catalogsearch/result/?q=Selene+Yoga+Hoodie
+[INFO ] 2024-08-06 17:53:23.232 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - URL opened!
+[INFO ] 2024-08-06 17:53:33.335 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:53:33.695 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/catalogsearch/result/?q=Selene+Yoga+Hoodie
+[INFO ] 2024-08-06 17:53:33.695 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - URL opened!
+[INFO ] 2024-08-06 17:53:43.800 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:53:43.939 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/catalogsearch/result/?q=Selene+Yoga+Hoodie
+[INFO ] 2024-08-06 17:53:43.940 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - URL opened!
+[INFO ] 2024-08-06 17:53:49.622 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:53:49.684 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:54:12.446 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-08-06 17:54:12.457 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:54:12.457 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-08-06 17:54:17.167 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-08-06 17:54:17.168 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-08-06 17:54:17.174 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-08-06 17:54:17.202 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 17:54:17.202 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-08-06 17:54:17.455 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-08-06 17:54:17.578 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-08-06 17:54:21.317 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-08-06 17:54:22.017 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:54:22.052 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - verify login test -- passed
+[INFO ] 2024-08-06 17:54:22.052 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Ends********
+[INFO ] 2024-08-06 17:54:22.067 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Starts*****
+[INFO ] 2024-08-06 17:54:23.842 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Entered product name in search input and clicked enter!
+[INFO ] 2024-08-06 17:54:23.842 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Ends*****
+[INFO ] 2024-08-06 17:54:23.861 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Starts*****
+[INFO ] 2024-08-06 17:54:23.883 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Redirected to searched product page!
+[INFO ] 2024-08-06 17:54:24.885 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - searched product found!
+[INFO ] 2024-08-06 17:54:24.885 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Ends*****
+[INFO ] 2024-08-06 17:54:24.891 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****ProductAddToCartTest Starts*****
+[INFO ] 2024-08-06 17:54:24.986 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - selected size!
+[INFO ] 2024-08-06 17:54:25.089 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - selected color!
+[INFO ] 2024-08-06 17:54:25.184 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - add to cart button clicked!
+[INFO ] 2024-08-06 17:54:29.052 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - product added to cart alert message!
+[INFO ] 2024-08-06 17:54:29.133 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - cart count updated!
+[INFO ] 2024-08-06 17:54:29.133 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****ProductAddToCartTest Ends*****
+[INFO ] 2024-08-06 17:54:29.139 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****ProceedToCheckoutTest Starts*****
+[INFO ] 2024-08-06 17:54:29.294 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - cart button clicked!
+[INFO ] 2024-08-06 17:54:34.819 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - checkOut button clicked!
+[INFO ] 2024-08-06 17:54:34.819 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****ProceedToCheckoutTest Ends*****
+[INFO ] 2024-08-06 17:54:34.907 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****CheckBillingAddressTest Starts*****
+[INFO ] 2024-08-06 17:54:35.490 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/checkout/#shipping
+[INFO ] 2024-08-06 17:54:35.491 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - checkout page opened!
+[INFO ] 2024-08-06 17:54:36.707 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - shipping address selected!
+[INFO ] 2024-08-06 17:54:36.707 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****CheckBillingAddressTest Ends*****
+[INFO ] 2024-08-06 17:54:36.711 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****CheckOrderDetailsTest Starts*****
+[INFO ] 2024-08-06 17:54:37.722 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - order summary list!
+[INFO ] 2024-08-06 17:54:37.839 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - next button clicked!
+[INFO ] 2024-08-06 17:54:37.839 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****CheckOrderDetailsTest Ends*****
+[INFO ] 2024-08-06 17:54:37.847 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****PlaceOrderTest Starts*****
+[INFO ] 2024-08-06 17:54:38.946 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/checkout/#payment
+[INFO ] 2024-08-06 17:54:41.083 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - billing address selected!
+[INFO ] 2024-08-06 17:54:41.201 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - place order button clicked!
+[INFO ] 2024-08-06 17:54:41.201 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****PlaceOrderTest Ends*****
+[INFO ] 2024-08-06 17:54:41.268 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****OrderSuccessandReceiptTest Starts*****
+[INFO ] 2024-08-06 17:54:46.415 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/checkout/onepage/success/
+[INFO ] 2024-08-06 17:54:46.415 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - order confirmation page opened!
+[INFO ] 2024-08-06 17:54:46.469 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - order number is: 000013418
+[INFO ] 2024-08-06 17:54:48.117 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - click order number link to get order details and receipt!
+[INFO ] 2024-08-06 17:54:48.131 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - product order receipt page opened!
+[INFO ] 2024-08-06 17:54:48.789 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - product order id is same!
+[INFO ] 2024-08-06 17:54:48.892 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - product and search entry are same!
+[INFO ] 2024-08-06 17:54:48.916 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - scroll down to see order details!
+[INFO ] 2024-08-06 17:54:48.938 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - scroll down to see billing address!
+[INFO ] 2024-08-06 17:54:48.938 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****OrderSuccessandReceiptTest Ends*****
+[INFO ] 2024-08-06 17:54:48.943 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****PrintOrderTest Starts*****
+[INFO ] 2024-08-06 17:54:49.143 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - clicked print order!
+[INFO ] 2024-08-06 17:54:50.784 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/sales/order/print/order_id/13413/
+[INFO ] 2024-08-06 17:54:50.785 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - switched to print order page!
+[INFO ] 2024-08-06 17:54:50.868 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - closed print order page!
+[INFO ] 2024-08-06 17:54:50.868 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****PrintOrderTest Ends*****
+[INFO ] 2024-08-06 17:54:50.873 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****LogoutTest Starts*****
+[INFO ] 2024-08-06 17:54:50.993 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Account dropdown is open now!
+[INFO ] 2024-08-06 17:54:53.149 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - logged out!
+[INFO ] 2024-08-06 17:54:53.208 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/logoutSuccess/
+[INFO ] 2024-08-06 17:54:59.478 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:54:59.478 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****LogoutTest Ends*****
+[INFO ] 2024-08-06 17:56:06.911 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - ****************Verify Create Account Test with created user credentials Starts****************
+[INFO ] 2024-08-06 17:56:06.919 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:56:07.593 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-08-06 17:56:08.851 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - URL opened!
+[INFO ] 2024-08-06 17:56:08.860 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/create/
+[INFO ] 2024-08-06 17:56:08.860 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-08-06 17:56:08.890 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/create/
+[INFO ] 2024-08-06 17:56:08.890 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - create account page opened!
+[INFO ] 2024-08-06 17:56:10.401 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-08-06 17:56:10.401 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-08-06 17:56:10.428 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-08-06 17:56:45.833 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:56:47.690 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-08-06 17:56:47.707 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:56:47.708 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - URL opened!
+[INFO ] 2024-08-06 17:56:47.754 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:56:47.754 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-08-06 17:56:50.494 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-08-06 17:56:50.525 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-08-06 17:56:50.541 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 17:56:50.541 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-08-06 17:56:50.541 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 17:56:50.541 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-08-06 17:56:51.555 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-08-06 17:56:51.602 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-08-06 17:56:51.700 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-08-06 17:56:51.731 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-08-06 17:56:51.856 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-08-06 17:56:52.412 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-08-06 17:57:00.325 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Starts*****
+[INFO ] 2024-08-06 17:57:06.105 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Entered product name in search input and clicked enter!
+[INFO ] 2024-08-06 17:57:06.106 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Ends*****
+[INFO ] 2024-08-06 17:57:06.149 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:57:06.149 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/catalogsearch/result/?q=Selene+Yoga+Hoodie
+[INFO ] 2024-08-06 17:57:06.149 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - URL opened!
+[INFO ] 2024-08-06 17:57:06.368 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Starts*****
+[INFO ] 2024-08-06 17:57:08.301 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-08-06 17:57:16.766 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:57:16.782 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jYXRhbG9nc2VhcmNoL3Jlc3VsdC9pbmRleC8_cT1TZWxlbmUrWW9nYStIb29kaWU%2C/
+[INFO ] 2024-08-06 17:57:16.782 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - URL opened!
+[INFO ] 2024-08-06 17:57:24.459 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:57:24.491 [TestNG-tests-2] DemoECommerceApp-Selenium-testNG-Java - *************************VerifyLogin TestCase Starts**************************
+[INFO ] 2024-08-06 17:57:53.695 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Starts********
+[INFO ] 2024-08-06 17:57:53.710 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:57:53.710 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Home page opened!
+[INFO ] 2024-08-06 17:57:57.207 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login link clicked!
+[INFO ] 2024-08-06 17:57:57.207 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******ClickLoginInHomePageTest Ends********
+[INFO ] 2024-08-06 17:57:57.254 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Starts********
+[INFO ] 2024-08-06 17:57:57.372 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 17:57:57.373 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login page opened!
+[INFO ] 2024-08-06 17:57:57.517 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Entered email address
+[INFO ] 2024-08-06 17:57:57.597 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Enter password
+[INFO ] 2024-08-06 17:58:00.454 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - login submit button clicked!
+[INFO ] 2024-08-06 17:58:02.211 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 17:58:02.242 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - verify login test -- passed
+[INFO ] 2024-08-06 17:58:02.242 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *******LoginSuccessTest Ends********
+[INFO ] 2024-08-06 17:58:02.258 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Starts*****
+[INFO ] 2024-08-06 17:58:05.006 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Entered product name in search input and clicked enter!
+[INFO ] 2024-08-06 17:58:05.006 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****SearchProductTest Ends*****
+[INFO ] 2024-08-06 17:58:05.022 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Starts*****
+[INFO ] 2024-08-06 17:58:05.038 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - Redirected to searched product page!
+[INFO ] 2024-08-06 17:58:08.992 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - searched product found!
+[INFO ] 2024-08-06 17:58:08.992 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****FindSearchedEntryProductTest Ends*****
+[INFO ] 2024-08-06 17:58:08.992 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****ProductAddToCartTest Starts*****
+[INFO ] 2024-08-06 17:58:09.105 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - selected size!
+[INFO ] 2024-08-06 17:58:09.183 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - selected color!
+[INFO ] 2024-08-06 17:58:09.262 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - add to cart button clicked!
+[INFO ] 2024-08-06 17:58:11.948 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - product added to cart alert message!
+[INFO ] 2024-08-06 17:58:12.011 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - cart count updated!
+[INFO ] 2024-08-06 17:58:12.151 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****ProductAddToCartTest Ends*****
+[INFO ] 2024-08-06 17:58:12.151 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****ProceedToCheckoutTest Starts*****
+[INFO ] 2024-08-06 17:58:12.248 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - cart button clicked!
+[INFO ] 2024-08-06 17:58:18.667 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - checkOut button clicked!
+[INFO ] 2024-08-06 17:58:18.667 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****ProceedToCheckoutTest Ends*****
+[INFO ] 2024-08-06 17:58:18.713 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****CheckBillingAddressTest Starts*****
+[INFO ] 2024-08-06 17:58:19.198 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/checkout/#shipping
+[INFO ] 2024-08-06 17:58:19.198 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - checkout page opened!
+[INFO ] 2024-08-06 17:58:20.327 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - shipping address selected!
+[INFO ] 2024-08-06 17:58:20.327 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****CheckBillingAddressTest Ends*****
+[INFO ] 2024-08-06 17:58:20.327 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****CheckOrderDetailsTest Starts*****
+[INFO ] 2024-08-06 17:58:21.355 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - order summary list!
+[INFO ] 2024-08-06 17:58:21.464 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - next button clicked!
+[INFO ] 2024-08-06 17:58:21.464 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****CheckOrderDetailsTest Ends*****
+[INFO ] 2024-08-06 17:58:21.464 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - *****PlaceOrderTest Starts*****
+[INFO ] 2024-08-06 17:58:22.554 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - https://magento.softwaretestingboard.com/checkout/#payment
+[INFO ] 2024-08-06 17:58:24.770 [TestNG-tests-1] DemoECommerceApp-Selenium-testNG-Java - billing address selected!

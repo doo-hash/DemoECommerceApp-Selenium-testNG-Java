@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>LoginTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 21 15:45:20 IST 2024</td>
+<td>Started on:</td><td>Tue Aug 06 17:55:33 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>31 seconds (31899 ms)</td>
+<tr><td>Total time:</td><td>47 seconds (47137 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,133 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demoApp.testCases.LoginPageTest.tearDown()'><b>tearDown</b><br>Test class: com.demoApp.testCases.LoginPageTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:301)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:320)
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:226)
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:61)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+	at com.demoApp.testCases.BaseClass.tearDown(BaseClass.java:62)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:280)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:291)
+	... 23 more
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace917728321", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace917728321'><pre>org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:301)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:320)
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:226)
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:61)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+	at com.demoApp.testCases.BaseClass.tearDown(BaseClass.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+	at org.testng.TestRunner.afterRun(TestRunner.java:818)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:280)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:291)
+	... 23 more
+</pre></div></td>
+<td>0</td>
+<td>com.demoApp.testCases.LoginPageTest@28975c28</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demoApp.testCases.LoginPageTest.loginSuccessTest()'><b>loginSuccessTest</b><br>Test class: com.demoApp.testCases.LoginPageTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.demoApp.testCases.LoginPageTest$$Lambda/0x00000225813b3a40@49c45e1f (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54281}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad1903b636be750256916f9cf6612237
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.demoApp.testCases.LoginPageTest.loginSuccessTest(LoginPageTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1790481903", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1790481903'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.demoApp.testCases.LoginPageTest$$Lambda/0x00000225813b3a40@49c45e1f (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54281}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad1903b636be750256916f9cf6612237
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.demoApp.testCases.LoginPageTest.loginSuccessTest(LoginPageTest.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>10</td>
+<td>com.demoApp.testCases.LoginPageTest@28975c28</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,19 +203,46 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.demoApp.testCases.LoginPageTest.logoutSuccessTest()'><b>logoutSuccessTest</b><br>Test class: com.demoApp.testCases.LoginPageTest</td>
-<td></td>
-<td>7</td>
-<td>com.demoApp.testCases.LoginPageTest@28975c28</td></tr>
-<tr>
 <td title='com.demoApp.testCases.LoginPageTest.clickLoginInHomePageTest()'><b>clickLoginInHomePageTest</b><br>Test class: com.demoApp.testCases.LoginPageTest</td>
 <td></td>
-<td>3</td>
+<td>2</td>
 <td>com.demoApp.testCases.LoginPageTest@28975c28</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.demoApp.testCases.LoginPageTest.loginSuccessTest()'><b>loginSuccessTest</b><br>Test class: com.demoApp.testCases.LoginPageTest</td>
-<td></td>
-<td>4</td>
+<td title='com.demoApp.testCases.LoginPageTest.logoutSuccessTest()'><b>logoutSuccessTest</b><br>Test class: com.demoApp.testCases.LoginPageTest</td>
+<td><div><pre>java.lang.Throwable: Method com.demoApp.testCases.LoginPageTest.logoutSuccessTest() on instance com.demoApp.testCases.LoginPageTest@28975c28 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@28975c28]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1831506212", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1831506212'><pre>java.lang.Throwable: Method com.demoApp.testCases.LoginPageTest.logoutSuccessTest() on instance com.demoApp.testCases.LoginPageTest@28975c28 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@28975c28]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
 <td>com.demoApp.testCases.LoginPageTest@28975c28</td></tr>
 </table><p>
 </body>

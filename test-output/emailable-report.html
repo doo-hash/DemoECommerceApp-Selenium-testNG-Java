@@ -9,21 +9,399 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">BuyProductTest</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">64,327</td><td></td><td></td></tr>
+<tr><td><a href="#t0">LoginTest</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">47,137</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">CreateAccountTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">47,894</td><td></td><td></td></tr>
+<tr><td><a href="#t2">ProductSearchTest</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">3</td><td class="num">67,206</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">DataDrivenTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">67,519</td><td></td><td></td></tr>
+<tr><td><a href="#t4">BuyProductTest</a></td><td class="num">8</td><td class="num attn">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">59,177</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">10</th><th class="num attn">5</th><th class="num">0</th><th class="num attn">11</th><th class="num">288,933</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BuyProductTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">com.demoApp.testCases.BuyProductTest</td><td><a href="#m0">checkBillingAddressTest</a></td><td rowspan="1">1721557956222</td><td rowspan="1">1881</td></tr><tr class="passedeven"><td><a href="#m1">checkOrderDetailsTest</a></td><td rowspan="1">1721557958105</td><td rowspan="1">1007</td></tr><tr class="passedeven"><td><a href="#m2">findSearchedEntryProductTest</a></td><td rowspan="1">1721557946130</td><td rowspan="1">1204</td></tr><tr class="passedeven"><td><a href="#m3">logoutTest</a></td><td rowspan="1">1721557970426</td><td rowspan="1">15809</td></tr><tr class="passedeven"><td><a href="#m4">orderSuccessandReceiptTest</a></td><td rowspan="1">1721557962506</td><td rowspan="1">5429</td></tr><tr class="passedeven"><td><a href="#m5">placeOrderTest</a></td><td rowspan="1">1721557959114</td><td rowspan="1">3391</td></tr><tr class="passedeven"><td><a href="#m6">printOrderTest</a></td><td rowspan="1">1721557967937</td><td rowspan="1">2473</td></tr><tr class="passedeven"><td><a href="#m7">proceedToCheckoutTest</a></td><td rowspan="1">1721557950167</td><td rowspan="1">6040</td></tr><tr class="passedeven"><td><a href="#m8">productAddToCartTest</a></td><td rowspan="1">1721557947334</td><td rowspan="1">2828</td></tr><tr class="passedeven"><td><a href="#m9">searchProductTest</a></td><td rowspan="1">1721557943840</td><td rowspan="1">2274</td></tr><tr class="passedodd"><td rowspan="2">com.demoApp.testCases.LoginPageTest</td><td><a href="#m10">clickLoginInHomePageTest</a></td><td rowspan="1">1721557936435</td><td rowspan="1">2021</td></tr><tr class="passedodd"><td><a href="#m11">loginSuccessTest</a></td><td rowspan="1">1721557938476</td><td rowspan="1">5358</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.demoApp.testCases.LoginPageTest</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1722947180474</td><td rowspan="1">0</td></tr><tr><th colspan="4">LoginTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.demoApp.testCases.LoginPageTest</td><td><a href="#m1">loginSuccessTest</a></td><td rowspan="1">1722947170424</td><td rowspan="1">10019</td></tr><tr><th colspan="4">LoginTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.demoApp.testCases.LoginPageTest</td><td><a href="#m2">logoutSuccessTest</a></td><td rowspan="1">1722947180459</td><td rowspan="1">0</td></tr><tr><th colspan="4">LoginTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.demoApp.testCases.LoginPageTest</td><td><a href="#m3">clickLoginInHomePageTest</a></td><td rowspan="1">1722947167575</td><td rowspan="1">2826</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">CreateAccountTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.demoApp.testCases.CreateAccountPageTest</td><td><a href="#m4">tearDown</a></td><td rowspan="1">1722947180459</td><td rowspan="1">788</td></tr><tr><th colspan="4">CreateAccountTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.demoApp.testCases.CreateAccountPageTest</td><td><a href="#m5">createNewAccountFailedTest</a></td><td rowspan="1">1722947166646</td><td rowspan="1">13797</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">ProductSearchTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.demoApp.testCases.LoginPageTest</td><td><a href="#m6">clickLoginInHomePageTest</a></td><td rowspan="1">1722947207690</td><td rowspan="1">2804</td></tr><tr class="failedeven"><td><a href="#m7">loginSuccessTest</a></td><td rowspan="1">1722947210510</td><td rowspan="1">9784</td></tr><tr class="failedodd"><td rowspan="1">com.demoApp.testCases.ProductSearchTest</td><td><a href="#m8">findSearchedEntryProductTest</a></td><td rowspan="1">1722947226110</td><td rowspan="1">10672</td></tr><tr><th colspan="4">ProductSearchTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.demoApp.testCases.LoginPageTest</td><td><a href="#m9">logoutSuccessTest</a></td><td rowspan="1">1722947220309</td><td rowspan="1">0</td></tr><tr><th colspan="4">ProductSearchTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.demoApp.testCases.ProductSearchTest</td><td><a href="#m10">searchProductTest</a></td><td rowspan="1">1722947220325</td><td rowspan="1">5781</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">DataDrivenTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.demoApp.testCases.LoginPageDataDrivenTest</td><td><a href="#m11">tearDown</a></td><td rowspan="1">1722947244491</td><td rowspan="1">4214</td></tr><tr><th colspan="4">DataDrivenTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">com.demoApp.testCases.LoginPageDataDrivenTest</td><td><a href="#m12">verifyLoginTest</a></td><td rowspan="5">1722947226149</td><td rowspan="5">10617</td></tr><tr class="failedeven"><td><a href="#m13">verifyLoginTest</a></td></tr><tr class="failedeven"><td><a href="#m14">verifyLoginTest</a></td></tr><tr class="failedeven"><td><a href="#m15">verifyLoginTest</a></td></tr><tr class="failedeven"><td><a href="#m16">verifyLoginTest</a></td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">BuyProductTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.demoApp.testCases.BuyProductTest</td><td><a href="#m17">placeOrderTest</a></td><td rowspan="1">1722947301464</td><td rowspan="1">4522</td></tr><tr><th colspan="4">BuyProductTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.demoApp.testCases.BuyProductTest</td><td><a href="#m18">logoutTest</a></td><td rowspan="1">1722947306001</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m19">orderSuccessandReceiptTest</a></td><td rowspan="1">1722947306001</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m20">printOrderTest</a></td><td rowspan="1">1722947306001</td><td rowspan="1">0</td></tr><tr><th colspan="4">BuyProductTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.demoApp.testCases.BuyProductTest</td><td><a href="#m21">checkBillingAddressTest</a></td><td rowspan="1">1722947298675</td><td rowspan="1">1652</td></tr><tr class="passedeven"><td><a href="#m22">checkOrderDetailsTest</a></td><td rowspan="1">1722947300327</td><td rowspan="1">1137</td></tr><tr class="passedeven"><td><a href="#m23">findSearchedEntryProductTest</a></td><td rowspan="1">1722947285006</td><td rowspan="1">3986</td></tr><tr class="passedeven"><td><a href="#m24">proceedToCheckoutTest</a></td><td rowspan="1">1722947292151</td><td rowspan="1">6516</td></tr><tr class="passedeven"><td><a href="#m25">productAddToCartTest</a></td><td rowspan="1">1722947288992</td><td rowspan="1">3159</td></tr><tr class="passedeven"><td><a href="#m26">searchProductTest</a></td><td rowspan="1">1722947282242</td><td rowspan="1">2764</td></tr><tr class="passedodd"><td rowspan="2">com.demoApp.testCases.LoginPageTest</td><td><a href="#m27">clickLoginInHomePageTest</a></td><td rowspan="1">1722947273695</td><td rowspan="1">3528</td></tr><tr class="passedodd"><td><a href="#m28">loginSuccessTest</a></td><td rowspan="1">1722947277238</td><td rowspan="1">5004</td></tr></tbody>
 </table>
-<h2>BuyProductTest</h2><h3 id="m0">com.demoApp.testCases.BuyProductTest#checkBillingAddressTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.demoApp.testCases.BuyProductTest#checkOrderDetailsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.demoApp.testCases.BuyProductTest#findSearchedEntryProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.demoApp.testCases.BuyProductTest#logoutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.demoApp.testCases.BuyProductTest#orderSuccessandReceiptTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.demoApp.testCases.BuyProductTest#placeOrderTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.demoApp.testCases.BuyProductTest#printOrderTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.demoApp.testCases.BuyProductTest#proceedToCheckoutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.demoApp.testCases.BuyProductTest#productAddToCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.demoApp.testCases.BuyProductTest#searchProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.demoApp.testCases.LoginPageTest#clickLoginInHomePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.demoApp.testCases.LoginPageTest#loginSuccessTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginTest</h2><h3 id="m0">com.demoApp.testCases.LoginPageTest#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:301)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:320)
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:226)
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:61)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+	at com.demoApp.testCases.BaseClass.tearDown(BaseClass.java:62)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:280)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:291)
+	... 23 more
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.demoApp.testCases.LoginPageTest#loginSuccessTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.demoApp.testCases.LoginPageTest$$Lambda/0x00000225813b3a40@49c45e1f (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54281}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad1903b636be750256916f9cf6612237
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.demoApp.testCases.LoginPageTest.loginSuccessTest(LoginPageTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.demoApp.testCases.LoginPageTest#logoutSuccessTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.demoApp.testCases.LoginPageTest.logoutSuccessTest() on instance com.demoApp.testCases.LoginPageTest@28975c28 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@28975c28]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.demoApp.testCases.LoginPageTest#clickLoginInHomePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>CreateAccountTest</h2><h3 id="m4">com.demoApp.testCases.CreateAccountPageTest#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;org.openqa.selenium.remote.Response.getStatus()&quot; is null
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+	at com.demoApp.testCases.BaseClass.tearDown(BaseClass.java:62)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.demoApp.testCases.CreateAccountPageTest#createNewAccountFailedTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#firstname&quot;}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ad1903b636be750256916f9cf6612237, findElement {value=firstname, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54281}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad1903b636be750256916f9cf6612237
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+	at com.demoApp.pageObject.CreateAccountPage.setFirstNameInput(CreateAccountPage.java:45)
+	at com.demoApp.testCases.CreateAccountPageTest.createNewAccountFailedTest(CreateAccountPageTest.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ProductSearchTest</h2><h3 id="m6">com.demoApp.testCases.LoginPageTest#clickLoginInHomePageTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, clickElement {id=f.0394593618796E07F538A2D2BEC08E1E.d.B49FDC1D0585A31592F39CA6D417B335.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6ce3ae9d551510263d823f56f040342f)] -&gt; link text: Sign In]
+Session ID: 6ce3ae9d551510263d823f56f040342f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at com.demoApp.pageObject.HomePage.clickLoginElement(HomePage.java:58)
+	at com.demoApp.testCases.LoginPageTest.clickLoginInHomePageTest(LoginPageTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.demoApp.testCases.LoginPageTest#loginSuccessTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.demoApp.testCases.LoginPageTest$$Lambda/0x0000022581127800@7a804a1 (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.demoApp.testCases.LoginPageTest.loginSuccessTest(LoginPageTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.demoApp.testCases.ProductSearchTest#findSearchedEntryProductTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.demoApp.testCases.ProductSearchTest$$Lambda/0x0000022581511260@3adefd61 (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.demoApp.testCases.ProductSearchTest.findSearchedEntryProductTest(ProductSearchTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.demoApp.testCases.LoginPageTest#logoutSuccessTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.demoApp.testCases.LoginPageTest.logoutSuccessTest() on instance com.demoApp.testCases.LoginPageTest@3315d2d7 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@3315d2d7]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.demoApp.testCases.ProductSearchTest#searchProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>DataDrivenTest</h2><h3 id="m11">com.demoApp.testCases.LoginPageDataDrivenTest#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+	at com.demoApp.testCases.BaseClass.tearDown(BaseClass.java:62)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+	... 22 more
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 3 more
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.demoApp.testCases.LoginPageDataDrivenTest#verifyLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>johnDrew@test.com</td><td>Password123</td><td>John Drew</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.demoApp.testCases.LoginPageDataDrivenTest.verifyLoginTest(LoginPageDataDrivenTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.demoApp.testCases.LoginPageDataDrivenTest#verifyLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>johnDrew@example.com</td><td>Password123</td><td>John Drew</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.demoApp.testCases.LoginPageDataDrivenTest.verifyLoginTest(LoginPageDataDrivenTest.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.demoApp.testCases.LoginPageDataDrivenTest#verifyLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td> </td><td> </td><td> </td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, executeScript [args, script]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463)
+	at com.demoApp.utilities.HighlightElementClass.highlightElement(HighlightElementClass.java:15)
+	at com.demoApp.pageObject.HomePage.clickLoginElement(HomePage.java:57)
+	at com.demoApp.testCases.LoginPageDataDrivenTest.verifyLoginTest(LoginPageDataDrivenTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@3762b3be rejected from java.util.concurrent.ThreadPoolExecutor@3e43602e[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1080]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.ensureExecutedAsync(HttpClientImpl.java:184)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:176)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.asyncReceive(Http1AsyncReceiver.java:468)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:589)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:546)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:865)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1476)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1421)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1421)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.demoApp.testCases.LoginPageDataDrivenTest#verifyLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>johnDrew@test.com</td><td>password</td><td> </td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, getCurrentUrl []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:312)
+	at com.demoApp.testCases.LoginPageDataDrivenTest.verifyLoginTest(LoginPageDataDrivenTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	... 24 more
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.demoApp.testCases.LoginPageDataDrivenTest#verifyLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>johDrew@example.com</td><td>Password123</td><td> </td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6ce3ae9d551510263d823f56f040342f, getCurrentUrl []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54370}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54370/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ce3ae9d551510263d823f56f040342f
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:312)
+	at com.demoApp.testCases.LoginPageDataDrivenTest.verifyLoginTest(LoginPageDataDrivenTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	... 24 more
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BuyProductTest</h2><h3 id="m17">com.demoApp.testCases.BuyProductTest#placeOrderTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;action primary checkout&quot; type=&quot;submit&quot; data-bind=&quot;
+                        click: placeOrder,
+                        attr: {title: $t(&apos;Place Order&apos;)},
+                        css: {disabled: !isPlaceOrderActionAllowed()},
+                        enable: (getCode() == isChecked())
+                        &quot; title=&quot;Place Order&quot; style=&quot;border: 2px solid yellow;&quot;&gt;...&lt;/button&gt; is not clickable at point (863, 350). Other element would receive the click: &lt;div class=&quot;billing-address-details&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6703650dbd41e83ef86babba09dacbd2, clickElement {id=f.56537072A35E8B2CF9565FEDF5D8DE22.d.4C2BE84342AADC0E37B6933E17B4C28A.e.318}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54461}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54461/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6703650dbd41e83ef86babba09dacbd2)] -&gt; xpath: //button[contains(@class,&apos;checkout&apos;)]]
+Session ID: 6703650dbd41e83ef86babba09dacbd2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at com.demoApp.pageObject.CheckoutPage.clickPlaceOrderButton(CheckoutPage.java:122)
+	at com.demoApp.testCases.BuyProductTest.placeOrderTest(BuyProductTest.java:161)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.demoApp.testCases.BuyProductTest#logoutTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.demoApp.testCases.BuyProductTest.logoutTest() on instance com.demoApp.testCases.BuyProductTest@770d3326 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@2abf4075
+com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.placeOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.demoApp.testCases.BuyProductTest#orderSuccessandReceiptTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest() on instance com.demoApp.testCases.BuyProductTest@770d3326 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@2abf4075
+com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.placeOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.demoApp.testCases.BuyProductTest#printOrderTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.demoApp.testCases.BuyProductTest.printOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326 depends on not successfully finished methods 
+[com.demoApp.testCases.LoginPageTest.loginSuccessTest() on instance com.demoApp.testCases.LoginPageTest@2abf4075
+com.demoApp.testCases.BuyProductTest.orderSuccessandReceiptTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.checkOrderDetailsTest() on instance com.demoApp.testCases.BuyProductTest@770d3326
+com.demoApp.testCases.BuyProductTest.placeOrderTest() on instance com.demoApp.testCases.BuyProductTest@770d3326]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.demoApp.testCases.BuyProductTest#checkBillingAddressTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.demoApp.testCases.BuyProductTest#checkOrderDetailsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.demoApp.testCases.BuyProductTest#findSearchedEntryProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.demoApp.testCases.BuyProductTest#proceedToCheckoutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">com.demoApp.testCases.BuyProductTest#productAddToCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">com.demoApp.testCases.BuyProductTest#searchProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">com.demoApp.testCases.LoginPageTest#clickLoginInHomePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">com.demoApp.testCases.LoginPageTest#loginSuccessTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

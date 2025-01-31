@@ -37,6 +37,9 @@ public class CheckoutPage {
 	
 	@FindBy(xpath = "//div[contains(@class,'opc-block-summary')]//div[contains(@class,'options')]")
 	WebElement viewDetailsButton;
+
+	@FindBy(xpath = "//span[contains(text(),'$5.00')]")
+	WebElement flatRateButton;
 	
 	@FindBy(xpath = "//button[contains(@class,'continue')]")
 	WebElement nextButton;
@@ -85,6 +88,14 @@ public class CheckoutPage {
 		wait.until(ExpectedConditions.elementToBeClickable(viewDetailsButton));
 		viewDetailsButton.click();
 		highlightElement.highlightElement(driver, productDetails);
+	}
+	
+	//select shipping method rates
+	public void selectShippingRate() {
+		executor.executeScript("window.scrollBy(0,100);");
+		wait.until(d -> flatRateButton.isDisplayed());
+		highlightElement.highlightElement(driver, flatRateButton);
+		flatRateButton.click();
 	}
 	
 	//click to check orders

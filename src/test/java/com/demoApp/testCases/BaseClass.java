@@ -40,8 +40,8 @@ public class BaseClass {
 			driver = new FirefoxDriver();
 			break;
 		default:
-			driver = null;
-			break;
+			System.out.println("Invalid browser name");
+			return;
 		}
 		
 		//maximize the window
